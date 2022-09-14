@@ -1,219 +1,0 @@
-[[1;34mINFO[m] Scanning for projects...
-[[1;33mWARNING[m] The project joda-time:joda-time:jar:2.4-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------------< [0;36mjoda-time:joda-time[0;1m >-------------------------[m
-[[1;34mINFO[m] [1mBuilding Joda-Time 2.4-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mjoda-time[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:setup[m [1m(default-cli)[m @ [36mjoda-time[0;1m ---[m
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Creating new database at '/home/khaes/phd/projects/explanation/code/tmp/time-repo-test/original/target/clover/clover.db'.
-[[1;34mINFO[m] Processing files at 1.9 source level.
-[[1;34mINFO[m] Clover all over. Instrumented 157 files (7 packages).
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Updating existing database at '/home/khaes/phd/projects/explanation/code/tmp/time-repo-test/original/target/clover/clover.db'.
-[[1;34mINFO[m] Processing files at 1.9 source level.
-[[1;34mINFO[m] Clover all over. Instrumented 155 files (7 packages).
-[[1;34mINFO[m] 4015 test methods detected.
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mjoda-time[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 2 resources to META-INF
-[[1;34mINFO[m] Copying 9 resources
-[[1;34mINFO[m] Copying 1 resource
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mjoda-time[0;1m ---[m
-[[1;34mINFO[m] Changes detected - recompiling the module!
-[[1;34mINFO[m] Compiling 157 source files to /home/khaes/phd/projects/explanation/code/tmp/time-repo-test/original/target/classes
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m>>> [0;32mexec-maven-plugin:1.2.1:java[m [1m(default)[0;1m > [0;1mvalidate[m @ [36mjoda-time[0;1m >>>[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m<<< [0;32mexec-maven-plugin:1.2.1:java[m [1m(default)[0;1m < [0;1mvalidate[m @ [36mjoda-time[0;1m <<<[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.2.1:java[m [1m(default)[m @ [36mjoda-time[0;1m ---[m
-Writing zoneinfo files
-Writing ZoneInfoMap
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mjoda-time[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 32 resources
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mjoda-time[0;1m ---[m
-[[1;34mINFO[m] Changes detected - recompiling the module!
-[[1;34mINFO[m] Compiling 155 source files to /home/khaes/phd/projects/explanation/code/tmp/time-repo-test/original/target/test-classes
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.15:test[m [1m(default-test)[m @ [36mjoda-time[0;1m ---[m
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.15/maven-surefire-common-2.15.pom
-Progress (1): 2.7/6.1 kBProgress (1): 5.5/6.1 kBProgress (1): 6.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.15/maven-surefire-common-2.15.pom (6.1 kB at 26 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.15/surefire-api-2.15.pom
-Progress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.15/surefire-api-2.15.pom (2.3 kB at 191 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.15/surefire-booter-2.15.pom
-Progress (1): 2.7/2.8 kBProgress (1): 2.8 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.15/surefire-booter-2.15.pom (2.8 kB at 236 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.15/maven-surefire-common-2.15.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.15/surefire-api-2.15.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.15/surefire-booter-2.15.jar
-Progress (1): 2.7/261 kBProgress (1): 5.5/261 kBProgress (1): 8.2/261 kBProgress (1): 11/261 kB Progress (1): 14/261 kBProgress (1): 16/261 kBProgress (1): 19/261 kBProgress (1): 21/261 kBProgress (1): 24/261 kBProgress (1): 27/261 kBProgress (1): 30/261 kBProgress (1): 32/261 kBProgress (1): 35/261 kBProgress (2): 35/261 kB | 2.7/152 kBProgress (3): 35/261 kB | 2.7/152 kB | 2.7/40 kBProgress (3): 35/261 kB | 5.5/152 kB | 2.7/40 kBProgress (3): 35/261 kB | 5.5/152 kB | 5.5/40 kBProgress (3): 35/261 kB | 8.2/152 kB | 5.5/40 kBProgress (3): 38/261 kB | 8.2/152 kB | 5.5/40 kBProgress (3): 38/261 kB | 11/152 kB | 5.5/40 kB Progress (3): 40/261 kB | 11/152 kB | 5.5/40 kBProgress (3): 43/261 kB | 11/152 kB | 5.5/40 kBProgress (3): 43/261 kB | 11/152 kB | 8.2/40 kBProgress (3): 43/261 kB | 11/152 kB | 11/40 kB Progress (3): 43/261 kB | 11/152 kB | 14/40 kBProgress (3): 43/261 kB | 11/152 kB | 16/40 kBProgress (3): 43/261 kB | 11/152 kB | 19/40 kBProgress (3): 46/261 kB | 11/152 kB | 19/40 kBProgress (3): 46/261 kB | 14/152 kB | 19/40 kBProgress (3): 49/261 kB | 14/152 kB | 19/40 kBProgress (3): 49/261 kB | 16/152 kB | 19/40 kBProgress (3): 49/261 kB | 19/152 kB | 19/40 kBProgress (3): 53/261 kB | 19/152 kB | 19/40 kBProgress (3): 53/261 kB | 19/152 kB | 21/40 kBProgress (3): 53/261 kB | 19/152 kB | 24/40 kBProgress (3): 53/261 kB | 19/152 kB | 27/40 kBProgress (3): 53/261 kB | 19/152 kB | 30/40 kBProgress (3): 53/261 kB | 19/152 kB | 32/40 kBProgress (3): 53/261 kB | 19/152 kB | 35/40 kBProgress (3): 53/261 kB | 21/152 kB | 35/40 kBProgress (3): 57/261 kB | 21/152 kB | 35/40 kBProgress (3): 57/261 kB | 24/152 kB | 35/40 kBProgress (3): 61/261 kB | 24/152 kB | 35/40 kBProgress (3): 61/261 kB | 27/152 kB | 35/40 kBProgress (3): 65/261 kB | 27/152 kB | 35/40 kBProgress (3): 65/261 kB | 30/152 kB | 35/40 kBProgress (3): 65/261 kB | 32/152 kB | 35/40 kBProgress (3): 65/261 kB | 35/152 kB | 35/40 kBProgress (3): 65/261 kB | 38/152 kB | 35/40 kBProgress (3): 65/261 kB | 40/152 kB | 35/40 kBProgress (3): 69/261 kB | 40/152 kB | 35/40 kBProgress (3): 69/261 kB | 43/152 kB | 35/40 kBProgress (3): 73/261 kB | 43/152 kB | 35/40 kBProgress (3): 73/261 kB | 46/152 kB | 35/40 kBProgress (3): 77/261 kB | 46/152 kB | 35/40 kBProgress (3): 77/261 kB | 49/152 kB | 35/40 kBProgress (3): 81/261 kB | 49/152 kB | 35/40 kBProgress (3): 81/261 kB | 53/152 kB | 35/40 kBProgress (3): 85/261 kB | 53/152 kB | 35/40 kBProgress (3): 85/261 kB | 53/152 kB | 38/40 kBProgress (3): 85/261 kB | 57/152 kB | 38/40 kBProgress (3): 85/261 kB | 61/152 kB | 38/40 kBProgress (3): 85/261 kB | 65/152 kB | 38/40 kBProgress (3): 85/261 kB | 69/152 kB | 38/40 kBProgress (3): 85/261 kB | 73/152 kB | 38/40 kBProgress (3): 85/261 kB | 77/152 kB | 38/40 kBProgress (3): 85/261 kB | 81/152 kB | 38/40 kBProgress (3): 85/261 kB | 85/152 kB | 38/40 kBProgress (3): 85/261 kB | 90/152 kB | 38/40 kBProgress (3): 85/261 kB | 94/152 kB | 38/40 kBProgress (3): 85/261 kB | 98/152 kB | 38/40 kBProgress (3): 85/261 kB | 102/152 kB | 38/40 kBProgress (3): 85/261 kB | 106/152 kB | 38/40 kBProgress (3): 85/261 kB | 110/152 kB | 38/40 kBProgress (3): 85/261 kB | 114/152 kB | 38/40 kBProgress (3): 85/261 kB | 118/152 kB | 38/40 kBProgress (3): 85/261 kB | 118/152 kB | 40 kB   Progress (3): 90/261 kB | 118/152 kB | 40 kBProgress (3): 94/261 kB | 118/152 kB | 40 kBProgress (3): 98/261 kB | 118/152 kB | 40 kBProgress (3): 102/261 kB | 118/152 kB | 40 kBProgress (3): 106/261 kB | 118/152 kB | 40 kBProgress (3): 110/261 kB | 118/152 kB | 40 kBProgress (3): 114/261 kB | 118/152 kB | 40 kBProgress (3): 118/261 kB | 118/152 kB | 40 kBProgress (3): 122/261 kB | 118/152 kB | 40 kBProgress (3): 126/261 kB | 118/152 kB | 40 kBProgress (3): 131/261 kB | 118/152 kB | 40 kBProgress (3): 135/261 kB | 118/152 kB | 40 kBProgress (3): 139/261 kB | 118/152 kB | 40 kBProgress (3): 143/261 kB | 118/152 kB | 40 kBProgress (3): 147/261 kB | 118/152 kB | 40 kBProgress (3): 151/261 kB | 118/152 kB | 40 kBProgress (3): 151/261 kB | 122/152 kB | 40 kB                                             Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.15/surefire-booter-2.15.jar (40 kB at 345 kB/s)
-Progress (2): 155/261 kB | 122/152 kBProgress (2): 155/261 kB | 126/152 kBProgress (2): 155/261 kB | 131/152 kBProgress (2): 155/261 kB | 135/152 kBProgress (2): 155/261 kB | 139/152 kBProgress (2): 155/261 kB | 143/152 kBProgress (2): 155/261 kB | 147/152 kBProgress (2): 155/261 kB | 151/152 kBProgress (2): 155/261 kB | 152 kB    Progress (2): 159/261 kB | 152 kBProgress (2): 163/261 kB | 152 kBProgress (2): 167/261 kB | 152 kBProgress (2): 171/261 kB | 152 kBProgress (2): 176/261 kB | 152 kBProgress (2): 180/261 kB | 152 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.15/surefire-api-2.15.jar (152 kB at 1.2 MB/s)
-Progress (1): 184/261 kBProgress (1): 188/261 kBProgress (1): 192/261 kBProgress (1): 196/261 kBProgress (1): 200/261 kBProgress (1): 204/261 kBProgress (1): 208/261 kBProgress (1): 212/261 kBProgress (1): 217/261 kBProgress (1): 221/261 kBProgress (1): 225/261 kBProgress (1): 229/261 kBProgress (1): 233/261 kBProgress (1): 237/261 kBProgress (1): 241/261 kBProgress (1): 245/261 kBProgress (1): 249/261 kBProgress (1): 253/261 kBProgress (1): 258/261 kBProgress (1): 261 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.15/maven-surefire-common-2.15.jar (261 kB at 1.8 MB/s)
-[[1;34mINFO[m] Surefire report directory: /home/khaes/phd/projects/explanation/code/tmp/time-repo-test/original/target/surefire-reports
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.15/surefire-junit3-2.15.pom
-Progress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.15/surefire-junit3-2.15.pom (1.7 kB at 17 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.15/surefire-providers-2.15.pom
-Progress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.15/surefire-providers-2.15.pom (2.4 kB at 264 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.15/surefire-junit3-2.15.jar
-Progress (1): 4.1/26 kBProgress (1): 8.2/26 kBProgress (1): 12/26 kB Progress (1): 16/26 kBProgress (1): 20/26 kBProgress (1): 24/26 kBProgress (1): 26 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.15/surefire-junit3-2.15.jar (26 kB at 2.0 MB/s)
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running org.joda.time.TestPartial_Basics
-Tests run: 69, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.337 sec <<< FAILURE! - in org.joda.time.TestPartial_Basics
-testWith3(org.joda.time.TestPartial_Basics)  Time elapsed: 0.007 sec  <<< FAILURE!
-junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.fail(Assert.java:53)
-	at org.joda.time.TestPartial_Basics.__CLR4_4_11gw59ewjb(TestPartial_Basics.java:364)
-	at org.joda.time.TestPartial_Basics.testWith3(TestPartial_Basics.java:360)
-
-
-Results :
-
-Failed tests: 
-  org.joda.time.TestPartial_Basics#testWith3 AssertionFailedError
-
-Tests run: 69, Failures: 1, Errors: 0, Skipped: 0
-
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------------< [0;36mjoda-time:joda-time[0;1m >-------------------------[m
-[[1;34mINFO[m] [1mBuilding Joda-Time 2.4-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:aggregate[m [1m(default-cli)[m @ [36mjoda-time[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------------< [0;36mjoda-time:joda-time[0;1m >-------------------------[m
-[[1;34mINFO[m] [1mBuilding Joda-Time 2.4-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:clover[m [1m(default-cli)[m @ [36mjoda-time[0;1m ---[m
-[[1;34mINFO[m] Using Clover report descriptor: /home/khaes/phd/projects/explanation/code/tmp/time-repo-test/original/clover-descriptor.xml
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Clover is enabled with initstring '/home/khaes/phd/projects/explanation/code/tmp/time-repo-test/original/target/clover/clover.db'
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Loading coverage database from: '/home/khaes/phd/projects/explanation/code/tmp/time-repo-test/original/target/clover/clover.db'
-[[1;34mINFO[m] Writing HTML report to '/home/khaes/phd/projects/explanation/code/tmp/time-repo-test/original/target/site/clover'
-[[1;34mINFO[m] Done. Processed 8 packages in 8498ms (1062ms per package).
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Clover is enabled with initstring '/home/khaes/phd/projects/explanation/code/tmp/time-repo-test/original/target/clover/clover.db'
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Loading coverage database from: '/home/khaes/phd/projects/explanation/code/tmp/time-repo-test/original/target/clover/clover.db'
-[[1;34mINFO[m] Writing report to '/home/khaes/phd/projects/explanation/code/tmp/time-repo-test/original/target/site/clover/clover.xml'
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] [1;31mBUILD FAILURE[m
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  47.856 s
-[[1;34mINFO[m] Finished at: 2022-03-27T23:21:25+02:00
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.15:test[m [1m(default-test)[m on project [36mjoda-time[m: [1;31mThere are test failures.[m
-[[1;31mERROR[m] [1;31m[m
-[[1;31mERROR[m] [1;31mPlease refer to /home/khaes/phd/projects/explanation/code/tmp/time-repo-test/original/target/surefire-reports for the individual test results.[m
-[[1;31mERROR[m] -> [1m[Help 1][m
-[[1;31mERROR[m] 
-[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
-[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
-[[1;31mERROR[m] 
-[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
-[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
-[[1;34mINFO[m] Build failures were ignored.
-[[1;34mINFO[m] Scanning for projects...
-[[1;33mWARNING[m] The project joda-time:joda-time:jar:2.4-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------------< [0;36mjoda-time:joda-time[0;1m >-------------------------[m
-[[1;34mINFO[m] [1mBuilding Joda-Time 2.4-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mjoda-time[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:setup[m [1m(default-cli)[m @ [36mjoda-time[0;1m ---[m
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Creating new database at '/home/khaes/phd/projects/explanation/code/tmp/time-repo-test/patched/target/clover/clover.db'.
-[[1;34mINFO[m] Processing files at 1.9 source level.
-[[1;34mINFO[m] Clover all over. Instrumented 157 files (7 packages).
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Updating existing database at '/home/khaes/phd/projects/explanation/code/tmp/time-repo-test/patched/target/clover/clover.db'.
-[[1;34mINFO[m] Processing files at 1.9 source level.
-[[1;34mINFO[m] Clover all over. Instrumented 155 files (7 packages).
-[[1;34mINFO[m] 4015 test methods detected.
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mjoda-time[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 2 resources to META-INF
-[[1;34mINFO[m] Copying 9 resources
-[[1;34mINFO[m] Copying 1 resource
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mjoda-time[0;1m ---[m
-[[1;34mINFO[m] Changes detected - recompiling the module!
-[[1;34mINFO[m] Compiling 157 source files to /home/khaes/phd/projects/explanation/code/tmp/time-repo-test/patched/target/classes
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m>>> [0;32mexec-maven-plugin:1.2.1:java[m [1m(default)[0;1m > [0;1mvalidate[m @ [36mjoda-time[0;1m >>>[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m<<< [0;32mexec-maven-plugin:1.2.1:java[m [1m(default)[0;1m < [0;1mvalidate[m @ [36mjoda-time[0;1m <<<[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.2.1:java[m [1m(default)[m @ [36mjoda-time[0;1m ---[m
-Writing zoneinfo files
-Writing ZoneInfoMap
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mjoda-time[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 32 resources
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mjoda-time[0;1m ---[m
-[[1;34mINFO[m] Changes detected - recompiling the module!
-[[1;34mINFO[m] Compiling 155 source files to /home/khaes/phd/projects/explanation/code/tmp/time-repo-test/patched/target/test-classes
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.15:test[m [1m(default-test)[m @ [36mjoda-time[0;1m ---[m
-[[1;34mINFO[m] Surefire report directory: /home/khaes/phd/projects/explanation/code/tmp/time-repo-test/patched/target/surefire-reports
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running org.joda.time.TestPartial_Basics
-Tests run: 69, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.319 sec - in org.joda.time.TestPartial_Basics
-
-Results :
-
-Tests run: 69, Failures: 0, Errors: 0, Skipped: 0
-
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------------< [0;36mjoda-time:joda-time[0;1m >-------------------------[m
-[[1;34mINFO[m] [1mBuilding Joda-Time 2.4-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:aggregate[m [1m(default-cli)[m @ [36mjoda-time[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------------< [0;36mjoda-time:joda-time[0;1m >-------------------------[m
-[[1;34mINFO[m] [1mBuilding Joda-Time 2.4-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:clover[m [1m(default-cli)[m @ [36mjoda-time[0;1m ---[m
-[[1;34mINFO[m] Using Clover report descriptor: /home/khaes/phd/projects/explanation/code/tmp/time-repo-test/patched/clover-descriptor.xml
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Clover is enabled with initstring '/home/khaes/phd/projects/explanation/code/tmp/time-repo-test/patched/target/clover/clover.db'
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Loading coverage database from: '/home/khaes/phd/projects/explanation/code/tmp/time-repo-test/patched/target/clover/clover.db'
-[[1;34mINFO[m] Writing HTML report to '/home/khaes/phd/projects/explanation/code/tmp/time-repo-test/patched/target/site/clover'
-[[1;34mINFO[m] Done. Processed 8 packages in 8208ms (1026ms per package).
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Clover is enabled with initstring '/home/khaes/phd/projects/explanation/code/tmp/time-repo-test/patched/target/clover/clover.db'
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Loading coverage database from: '/home/khaes/phd/projects/explanation/code/tmp/time-repo-test/patched/target/clover/clover.db'
-[[1;34mINFO[m] Writing report to '/home/khaes/phd/projects/explanation/code/tmp/time-repo-test/patched/target/site/clover/clover.xml'
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  45.148 s
-[[1;34mINFO[m] Finished at: 2022-03-27T23:22:13+02:00
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

@@ -1,232 +1,0 @@
-[[1;34mINFO[m] Scanning for projects...
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.commons:commons-math:jar:2.1-SNAPSHOT
-[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:12, /home/khaes/.m2/repository/org/apache/commons/commons-parent/12/commons-parent-12.pom, line 266, column 15
-[[1;33mWARNING[m] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
-[[1;33mWARNING[m] 
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-build-plugin/1.1/commons-build-plugin-1.1.pom
-Progress (1): 2.7/7.4 kBProgress (1): 5.5/7.4 kBProgress (1): 7.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-build-plugin/1.1/commons-build-plugin-1.1.pom (7.4 kB at 20 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/10/commons-parent-10.pom
-Progress (1): 2.7/23 kBProgress (1): 5.5/23 kBProgress (1): 8.2/23 kBProgress (1): 11/23 kB Progress (1): 14/23 kBProgress (1): 16/23 kBProgress (1): 19/23 kBProgress (1): 21/23 kBProgress (1): 23 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/10/commons-parent-10.pom (23 kB at 598 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-build-plugin/1.1/commons-build-plugin-1.1.jar
-Progress (1): 2.7/20 kBProgress (1): 5.5/20 kBProgress (1): 8.2/20 kBProgress (1): 11/20 kB Progress (1): 14/20 kBProgress (1): 16/20 kBProgress (1): 19/20 kBProgress (1): 20 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-build-plugin/1.1/commons-build-plugin-1.1.jar (20 kB at 98 kB/s)
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 2.1-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.3/maven-clean-plugin-2.3.pom
-Progress (1): 2.7/4.4 kBProgress (1): 4.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.3/maven-clean-plugin-2.3.pom (4.4 kB at 401 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.3/maven-clean-plugin-2.3.jar
-Progress (1): 4.1/17 kBProgress (1): 8.2/17 kBProgress (1): 12/17 kB Progress (1): 16/17 kBProgress (1): 17 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.3/maven-clean-plugin-2.3.jar (17 kB at 1.3 MB/s)
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.3:clean[m [1m(default-clean)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mcobertura-maven-plugin:2.2:clean[m [1m(default)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:setup[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Creating new database at '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'.
-[[1;34mINFO[m] Processing files at 1.9 source level.
-[[1;34mINFO[m] Clover all over. Instrumented 399 files (37 packages).
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Updating existing database at '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'.
-[[1;34mINFO[m] Processing files at 1.9 source level.
-[[1;34mINFO[m] Clover all over. Instrumented 263 files (38 packages).
-[[1;34mINFO[m] 1775 test methods detected.
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.3:run[m [1m(javadoc.resources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Executing tasks
-     [copy] Copying 2 files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/apidocs/META-INF
-[[1;34mINFO[m] Executed tasks
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 2 resources to META-INF
-[[1;34mINFO[m] Copying 1 resource
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.0.2:compile[m [1m(default-compile)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Compiling 399 source files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/classes
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:1.4.0:manifest[m [1m(bundle-manifest)[m @ [36mcommons-math[0;1m ---[m
-Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bndlib/0.0.238/bndlib-0.0.238.pom
-Progress (1): 864 B                   Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bndlib/0.0.238/bndlib-0.0.238.pom (864 B at 79 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bndlib/0.0.238/bndlib-0.0.238.jar
-Progress (1): 4.1/157 kBProgress (1): 8.2/157 kBProgress (1): 12/157 kB Progress (1): 16/157 kBProgress (1): 20/157 kBProgress (1): 24/157 kBProgress (1): 28/157 kBProgress (1): 32/157 kBProgress (1): 36/157 kBProgress (1): 40/157 kBProgress (1): 44/157 kBProgress (1): 49/157 kBProgress (1): 53/157 kBProgress (1): 57/157 kBProgress (1): 61/157 kBProgress (1): 65/157 kBProgress (1): 69/157 kBProgress (1): 73/157 kBProgress (1): 77/157 kBProgress (1): 81/157 kBProgress (1): 85/157 kBProgress (1): 90/157 kBProgress (1): 94/157 kBProgress (1): 98/157 kBProgress (1): 102/157 kBProgress (1): 106/157 kBProgress (1): 110/157 kBProgress (1): 114/157 kBProgress (1): 118/157 kBProgress (1): 122/157 kBProgress (1): 126/157 kBProgress (1): 130/157 kBProgress (1): 135/157 kBProgress (1): 139/157 kBProgress (1): 143/157 kBProgress (1): 147/157 kBProgress (1): 151/157 kBProgress (1): 155/157 kBProgress (1): 157 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bndlib/0.0.238/bndlib-0.0.238.jar (157 kB at 5.2 MB/s)
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 11 resources
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.0.2:testCompile[m [1m(default-testCompile)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Compiling 263 source files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/test-classes
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.4.3:test[m [1m(default-test)[m @ [36mcommons-math[0;1m ---[m
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.4.3/surefire-booter-2.4.3.pom
-Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.4.3/surefire-booter-2.4.3.pom (2.0 kB at 70 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.4.3/surefire-api-2.4.3.pom
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.4.3/surefire-api-2.4.3.pom (0 B at 0 B/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.4.3/surefire-api-2.4.3.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.4.3/surefire-booter-2.4.3.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.4.3/surefire-api-2.4.3.jar (0 B at 0 B/s)
-Progress (1): 2.7/268 kBProgress (1): 5.5/268 kBProgress (1): 8.2/268 kBProgress (1): 11/268 kB Progress (1): 14/268 kBProgress (1): 16/268 kBProgress (1): 19/268 kBProgress (1): 21/268 kBProgress (1): 24/268 kBProgress (1): 27/268 kBProgress (1): 30/268 kBProgress (1): 32/268 kBProgress (1): 35/268 kBProgress (1): 38/268 kBProgress (1): 40/268 kBProgress (1): 43/268 kBProgress (1): 46/268 kBProgress (1): 49/268 kBProgress (1): 53/268 kBProgress (1): 57/268 kBProgress (1): 61/268 kBProgress (1): 65/268 kBProgress (1): 69/268 kBProgress (1): 73/268 kBProgress (1): 77/268 kBProgress (1): 81/268 kBProgress (1): 85/268 kBProgress (1): 90/268 kBProgress (1): 94/268 kBProgress (1): 98/268 kBProgress (1): 102/268 kBProgress (1): 106/268 kBProgress (1): 110/268 kBProgress (1): 114/268 kBProgress (1): 118/268 kBProgress (1): 122/268 kBProgress (1): 126/268 kBProgress (1): 131/268 kBProgress (1): 135/268 kBProgress (1): 139/268 kBProgress (1): 143/268 kBProgress (1): 147/268 kBProgress (1): 151/268 kBProgress (1): 155/268 kBProgress (1): 159/268 kBProgress (1): 163/268 kBProgress (1): 167/268 kBProgress (1): 171/268 kBProgress (1): 176/268 kBProgress (1): 180/268 kBProgress (1): 184/268 kBProgress (1): 188/268 kBProgress (1): 192/268 kBProgress (1): 196/268 kBProgress (1): 200/268 kBProgress (1): 204/268 kBProgress (1): 208/268 kBProgress (1): 212/268 kBProgress (1): 217/268 kBProgress (1): 221/268 kBProgress (1): 225/268 kBProgress (1): 229/268 kBProgress (1): 233/268 kBProgress (1): 237/268 kBProgress (1): 241/268 kBProgress (1): 245/268 kBProgress (1): 249/268 kBProgress (1): 253/268 kBProgress (1): 258/268 kBProgress (1): 262/268 kBProgress (1): 266/268 kBProgress (1): 268 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.4.3/surefire-booter-2.4.3.jar (268 kB at 3.3 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.4.3/surefire-junit4-2.4.3.pom
-Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.4.3/surefire-junit4-2.4.3.pom (2.0 kB at 10 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.4.3/surefire-providers-2.4.3.pom
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.4.3/surefire-providers-2.4.3.pom (0 B at 0 B/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.4.3/surefire-junit4-2.4.3.jar
-Progress (1): 4.1/12 kBProgress (1): 8.2/12 kBProgress (1): 12 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.4.3/surefire-junit4-2.4.3.jar (12 kB at 770 kB/s)
-[[1;34mINFO[m] Surefire report directory: /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/surefire-reports
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running org.apache.commons.math.analysis.solvers.BrentSolverTest
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec <<< FAILURE!
-
-Results :
-
-Failed tests: 
-  testBadEndpoints(org.apache.commons.math.analysis.solvers.BrentSolverTest)
-
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0
-
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 2.1-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:aggregate[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 2.1-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:clover[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using Clover report descriptor: /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/clover-descriptor.xml
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Clover is enabled with initstring '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Loading coverage database from: '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'
-[[1;34mINFO[m] Writing HTML report to '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/site/clover'
-[[1;34mINFO[m] Done. Processed 38 packages in 7724ms (203ms per package).
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Clover is enabled with initstring '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Loading coverage database from: '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'
-[[1;34mINFO[m] Writing report to '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/site/clover/clover.xml'
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] [1;31mBUILD FAILURE[m
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  35.804 s
-[[1;34mINFO[m] Finished at: 2022-04-03T05:51:46+02:00
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.4.3:test[m [1m(default-test)[m on project [36mcommons-math[m: [1;31mThere are test failures.[m
-[[1;31mERROR[m] [1;31m[m
-[[1;31mERROR[m] [1;31mPlease refer to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/surefire-reports for the individual test results.[m
-[[1;31mERROR[m] -> [1m[Help 1][m
-[[1;31mERROR[m] 
-[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
-[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
-[[1;31mERROR[m] 
-[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
-[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
-[[1;34mINFO[m] Build failures were ignored.
-[[1;34mINFO[m] Scanning for projects...
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.commons:commons-math:jar:2.1-SNAPSHOT
-[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:12, /home/khaes/.m2/repository/org/apache/commons/commons-parent/12/commons-parent-12.pom, line 266, column 15
-[[1;33mWARNING[m] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
-[[1;33mWARNING[m] 
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 2.1-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.3:clean[m [1m(default-clean)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mcobertura-maven-plugin:2.2:clean[m [1m(default)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:setup[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Creating new database at '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'.
-[[1;34mINFO[m] Processing files at 1.9 source level.
-[[1;34mINFO[m] Clover all over. Instrumented 399 files (37 packages).
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Updating existing database at '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'.
-[[1;34mINFO[m] Processing files at 1.9 source level.
-[[1;34mINFO[m] Clover all over. Instrumented 263 files (38 packages).
-[[1;34mINFO[m] 1775 test methods detected.
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.3:run[m [1m(javadoc.resources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Executing tasks
-     [copy] Copying 2 files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/apidocs/META-INF
-[[1;34mINFO[m] Executed tasks
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 2 resources to META-INF
-[[1;34mINFO[m] Copying 1 resource
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.0.2:compile[m [1m(default-compile)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Compiling 399 source files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/classes
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:1.4.0:manifest[m [1m(bundle-manifest)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 11 resources
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.0.2:testCompile[m [1m(default-testCompile)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Compiling 263 source files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/test-classes
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.4.3:test[m [1m(default-test)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Surefire report directory: /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/surefire-reports
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running org.apache.commons.math.analysis.solvers.BrentSolverTest
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec
-
-Results :
-
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
-
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 2.1-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:aggregate[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 2.1-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:clover[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using Clover report descriptor: /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/clover-descriptor.xml
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Clover is enabled with initstring '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Loading coverage database from: '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'
-[[1;34mINFO[m] Writing HTML report to '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/site/clover'
-[[1;34mINFO[m] Done. Processed 38 packages in 8381ms (220ms per package).
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Clover is enabled with initstring '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Loading coverage database from: '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'
-[[1;34mINFO[m] Writing report to '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/site/clover/clover.xml'
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  36.364 s
-[[1;34mINFO[m] Finished at: 2022-04-03T05:52:25+02:00
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

@@ -1,275 +1,0 @@
-[[1;34mINFO[m] Scanning for projects...
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.commons:commons-math:jar:2.1
-[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:14, /home/khaes/.m2/repository/org/apache/commons/commons-parent/14/commons-parent-14.pom, line 329, column 15
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
-[[1;33mWARNING[m] 
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-build-plugin/1.2/commons-build-plugin-1.2.pom
-Progress (1): 2.7/7.6 kBProgress (1): 5.5/7.6 kBProgress (1): 7.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-build-plugin/1.2/commons-build-plugin-1.2.pom (7.6 kB at 16 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-build-plugin/1.2/commons-build-plugin-1.2.jar
-Progress (1): 2.7/21 kBProgress (1): 5.5/21 kBProgress (1): 8.2/21 kBProgress (1): 11/21 kB Progress (1): 14/21 kBProgress (1): 16/21 kBProgress (1): 19/21 kBProgress (1): 21 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-build-plugin/1.2/commons-build-plugin-1.2.jar (21 kB at 96 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/2.2/cobertura-maven-plugin-2.2.pom
-Progress (1): 2.7/5.4 kBProgress (1): 5.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/2.2/cobertura-maven-plugin-2.2.pom (5.4 kB at 286 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo/16/mojo-16.pom
-Progress (1): 2.7/8.9 kBProgress (1): 5.5/8.9 kBProgress (1): 8.2/8.9 kBProgress (1): 8.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo/16/mojo-16.pom (8.9 kB at 426 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/2.2/cobertura-maven-plugin-2.2.jar
-Progress (1): 2.7/29 kBProgress (1): 5.5/29 kBProgress (1): 8.2/29 kBProgress (1): 11/29 kB Progress (1): 14/29 kBProgress (1): 16/29 kBProgress (1): 20/29 kBProgress (1): 24/29 kBProgress (1): 28/29 kBProgress (1): 29 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/2.2/cobertura-maven-plugin-2.2.jar (29 kB at 267 kB/s)
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 2.1[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.4:clean[m [1m(default-clean)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mcobertura-maven-plugin:2.2:clean[m [1m(default)[m @ [36mcommons-math[0;1m ---[m
-Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/cobertura/cobertura/1.9/cobertura-1.9.pom
-Progress (1): 1.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/cobertura/cobertura/1.9/cobertura-1.9.pom (1.4 kB at 129 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/asm/asm/2.2.1/asm-2.2.1.pom
-Progress (1): 847 B                   Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm/2.2.1/asm-2.2.1.pom (847 B at 85 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-tree/2.2.1/asm-tree-2.2.1.pom
-Progress (1): 1.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-tree/2.2.1/asm-tree-2.2.1.pom (1.0 kB at 104 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.9/log4j-1.2.9.pom
-Progress (1): 144 B                   Downloaded from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.9/log4j-1.2.9.pom (144 B at 16 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.7.0/ant-1.7.0.pom
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.7.0/ant-1.7.0.pom (0 B at 0 B/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.7.0/ant-parent-1.7.0.pom
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.7.0/ant-parent-1.7.0.pom (0 B at 0 B/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.pom
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.pom (0 B at 0 B/s)
-Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/cobertura/cobertura-runtime/1.9/cobertura-runtime-1.9.pom
-Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/cobertura/cobertura-runtime/1.9/cobertura-runtime-1.9.pom (1.3 kB at 129 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0/maven-reporting-impl-2.0.pom
-Progress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0/maven-reporting-impl-2.0.pom (2.2 kB at 103 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.1.4/commons-validator-1.1.4.pom
-Downloaded from central: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.1.4/commons-validator-1.1.4.pom (0 B at 0 B/s)
-Downloading from central: https://repo.maven.apache.org/maven2/oro/oro/2.0.7/oro-2.0.7.pom
-Downloaded from central: https://repo.maven.apache.org/maven2/oro/oro/2.0.7/oro-2.0.7.pom (0 B at 0 B/s)
-Downloading from central: https://repo.maven.apache.org/maven2/doxia/doxia-core/1.0-alpha-4/doxia-core-1.0-alpha-4.pom
-Progress (1): 4.1/4.6 kBProgress (1): 4.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/doxia/doxia-core/1.0-alpha-4/doxia-core-1.0-alpha-4.pom (4.6 kB at 463 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/cobertura/cobertura/1.9/cobertura-1.9.jar
-Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-tree/2.2.1/asm-tree-2.2.1.jar
-Progress (1): 4.1/194 kB                        Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.7.0/ant-1.7.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/asm/asm/2.2.1/asm-2.2.1.jar
-Downloading from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.9/log4j-1.2.9.jar
-Progress (1): 8.2/194 kBProgress (1): 12/194 kB Progress (1): 16/194 kBProgress (1): 20/194 kBProgress (1): 24/194 kBProgress (1): 28/194 kBProgress (1): 32/194 kBProgress (1): 36/194 kBProgress (1): 40/194 kBProgress (1): 45/194 kBProgress (1): 49/194 kBProgress (1): 53/194 kBProgress (1): 57/194 kBProgress (1): 61/194 kBProgress (1): 65/194 kBProgress (1): 69/194 kBProgress (1): 73/194 kBProgress (1): 77/194 kBProgress (1): 81/194 kBProgress (1): 85/194 kBProgress (1): 90/194 kBProgress (1): 94/194 kBProgress (1): 98/194 kBProgress (1): 102/194 kBProgress (1): 106/194 kBProgress (1): 110/194 kBProgress (1): 114/194 kBProgress (1): 118/194 kBProgress (1): 122/194 kBProgress (1): 126/194 kBProgress (1): 131/194 kBProgress (1): 135/194 kBProgress (1): 139/194 kBProgress (1): 143/194 kBProgress (1): 147/194 kBProgress (1): 151/194 kBProgress (1): 155/194 kBProgress (1): 159/194 kBProgress (1): 163/194 kBProgress (1): 167/194 kBProgress (1): 171/194 kBProgress (1): 176/194 kBProgress (1): 180/194 kBProgress (1): 184/194 kBProgress (1): 188/194 kBProgress (1): 192/194 kBProgress (1): 194 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/cobertura/cobertura/1.9/cobertura-1.9.jar (194 kB at 2.1 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.jar (0 B at 0 B/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0/maven-reporting-api-2.0.jar
-Progress (1): 2.7/35 kBProgress (1): 5.5/35 kBProgress (1): 8.2/35 kBProgress (2): 8.2/35 kB | 2.7/352 kBProgress (2): 11/35 kB | 2.7/352 kB Progress (2): 11/35 kB | 5.5/352 kBProgress (2): 14/35 kB | 5.5/352 kBProgress (2): 16/35 kB | 5.5/352 kBProgress (2): 19/35 kB | 5.5/352 kBProgress (2): 19/35 kB | 8.2/352 kBProgress (3): 19/35 kB | 8.2/352 kB | 2.7/16 kBProgress (3): 19/35 kB | 8.2/352 kB | 5.5/16 kBProgress (3): 19/35 kB | 8.2/352 kB | 8.2/16 kBProgress (3): 19/35 kB | 8.2/352 kB | 11/16 kB Progress (3): 19/35 kB | 8.2/352 kB | 14/16 kBProgress (3): 19/35 kB | 8.2/352 kB | 16/16 kBProgress (3): 19/35 kB | 8.2/352 kB | 16 kB   Progress (3): 21/35 kB | 8.2/352 kB | 16 kBProgress (3): 24/35 kB | 8.2/352 kB | 16 kBProgress (3): 27/35 kB | 8.2/352 kB | 16 kBProgress (3): 30/35 kB | 8.2/352 kB | 16 kBProgress (3): 32/35 kB | 8.2/352 kB | 16 kB                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.7.0/ant-1.7.0.jar (0 B at 0 B/s)
-Progress (3): 32/35 kB | 11/352 kB | 16 kBProgress (4): 32/35 kB | 11/352 kB | 16 kB | 4.1/6.6 kBProgress (4): 32/35 kB | 14/352 kB | 16 kB | 4.1/6.6 kBProgress (4): 32/35 kB | 16/352 kB | 16 kB | 4.1/6.6 kBProgress (4): 32/35 kB | 19/352 kB | 16 kB | 4.1/6.6 kBProgress (4): 32/35 kB | 21/352 kB | 16 kB | 4.1/6.6 kBProgress (4): 32/35 kB | 24/352 kB | 16 kB | 4.1/6.6 kBProgress (4): 32/35 kB | 27/352 kB | 16 kB | 4.1/6.6 kBProgress (4): 32/35 kB | 30/352 kB | 16 kB | 4.1/6.6 kBProgress (4): 32/35 kB | 32/352 kB | 16 kB | 4.1/6.6 kBProgress (4): 32/35 kB | 35/352 kB | 16 kB | 4.1/6.6 kBProgress (4): 32/35 kB | 38/352 kB | 16 kB | 4.1/6.6 kBProgress (4): 32/35 kB | 40/352 kB | 16 kB | 4.1/6.6 kBProgress (4): 32/35 kB | 43/352 kB | 16 kB | 4.1/6.6 kBProgress (4): 32/35 kB | 46/352 kB | 16 kB | 4.1/6.6 kBProgress (4): 35 kB | 46/352 kB | 16 kB | 4.1/6.6 kB                                                       Downloading from central: https://repo.maven.apache.org/maven2/doxia/doxia-sink-api/1.0-alpha-4/doxia-sink-api-1.0-alpha-4.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-tree/2.2.1/asm-tree-2.2.1.jar (16 kB at 123 kB/s)
-Progress (3): 35 kB | 46/352 kB | 6.6 kBProgress (3): 35 kB | 49/352 kB | 6.6 kB                                        Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0/maven-reporting-impl-2.0.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm/2.2.1/asm-2.2.1.jar (35 kB at 252 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.1.4/commons-validator-1.1.4.jar
-Progress (3): 49/352 kB | 6.6 kB | 2.7/4.3 kB                                             Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0/maven-reporting-api-2.0.jar (6.6 kB at 47 kB/s)
-Progress (2): 49/352 kB | 4.3 kB                                Downloading from central: https://repo.maven.apache.org/maven2/doxia/doxia-core/1.0-alpha-4/doxia-core-1.0-alpha-4.jar
-Progress (3): 49/352 kB | 4.3 kB | 2.7/261 kBProgress (3): 49/352 kB | 4.3 kB | 5.5/261 kBProgress (3): 49/352 kB | 4.3 kB | 8.2/261 kBProgress (3): 49/352 kB | 4.3 kB | 11/261 kB Progress (3): 49/352 kB | 4.3 kB | 14/261 kBProgress (3): 49/352 kB | 4.3 kB | 16/261 kBProgress (3): 49/352 kB | 4.3 kB | 19/261 kBProgress (3): 49/352 kB | 4.3 kB | 21/261 kBProgress (3): 49/352 kB | 4.3 kB | 24/261 kBProgress (3): 49/352 kB | 4.3 kB | 27/261 kBProgress (4): 49/352 kB | 4.3 kB | 27/261 kB | 2.7/16 kB                                                        Downloaded from central: https://repo.maven.apache.org/maven2/doxia/doxia-sink-api/1.0-alpha-4/doxia-sink-api-1.0-alpha-4.jar (4.3 kB at 27 kB/s)
-Progress (3): 53/352 kB | 27/261 kB | 2.7/16 kBProgress (3): 53/352 kB | 27/261 kB | 5.5/16 kBProgress (3): 53/352 kB | 27/261 kB | 8.2/16 kB                                               Downloaded from central: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.1.4/commons-validator-1.1.4.jar (0 B at 0 B/s)
-Progress (3): 57/352 kB | 27/261 kB | 8.2/16 kBProgress (3): 61/352 kB | 27/261 kB | 8.2/16 kBProgress (3): 65/352 kB | 27/261 kB | 8.2/16 kBProgress (3): 65/352 kB | 30/261 kB | 8.2/16 kBProgress (3): 65/352 kB | 30/261 kB | 11/16 kB Progress (3): 65/352 kB | 30/261 kB | 14/16 kBProgress (3): 65/352 kB | 32/261 kB | 14/16 kBProgress (3): 65/352 kB | 32/261 kB | 16/16 kBProgress (3): 65/352 kB | 35/261 kB | 16/16 kBProgress (3): 69/352 kB | 35/261 kB | 16/16 kBProgress (3): 69/352 kB | 35/261 kB | 16 kB   Progress (3): 69/352 kB | 38/261 kB | 16 kBProgress (3): 73/352 kB | 38/261 kB | 16 kBProgress (3): 73/352 kB | 40/261 kB | 16 kBProgress (3): 77/352 kB | 40/261 kB | 16 kBProgress (3): 81/352 kB | 40/261 kB | 16 kBProgress (3): 81/352 kB | 43/261 kB | 16 kB                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0/maven-reporting-impl-2.0.jar (16 kB at 93 kB/s)
-Progress (2): 81/352 kB | 46/261 kBProgress (2): 85/352 kB | 46/261 kBProgress (2): 90/352 kB | 46/261 kBProgress (2): 94/352 kB | 46/261 kBProgress (2): 98/352 kB | 46/261 kBProgress (2): 98/352 kB | 49/261 kBProgress (2): 98/352 kB | 53/261 kBProgress (2): 102/352 kB | 53/261 kBProgress (2): 106/352 kB | 53/261 kBProgress (2): 106/352 kB | 57/261 kBProgress (2): 106/352 kB | 61/261 kBProgress (2): 106/352 kB | 65/261 kBProgress (2): 110/352 kB | 65/261 kBProgress (2): 114/352 kB | 65/261 kBProgress (2): 114/352 kB | 69/261 kBProgress (2): 114/352 kB | 73/261 kBProgress (2): 114/352 kB | 77/261 kBProgress (2): 118/352 kB | 77/261 kBProgress (2): 122/352 kB | 77/261 kBProgress (2): 126/352 kB | 77/261 kBProgress (2): 126/352 kB | 81/261 kBProgress (2): 131/352 kB | 81/261 kBProgress (2): 131/352 kB | 85/261 kBProgress (2): 131/352 kB | 90/261 kBProgress (2): 135/352 kB | 90/261 kBProgress (2): 135/352 kB | 94/261 kBProgress (2): 139/352 kB | 94/261 kBProgress (2): 139/352 kB | 98/261 kBProgress (2): 143/352 kB | 98/261 kBProgress (2): 147/352 kB | 98/261 kBProgress (2): 147/352 kB | 102/261 kBProgress (2): 147/352 kB | 106/261 kBProgress (2): 151/352 kB | 106/261 kBProgress (2): 151/352 kB | 110/261 kBProgress (2): 151/352 kB | 114/261 kBProgress (2): 155/352 kB | 114/261 kBProgress (2): 159/352 kB | 114/261 kBProgress (2): 163/352 kB | 114/261 kBProgress (2): 163/352 kB | 118/261 kBProgress (2): 163/352 kB | 122/261 kBProgress (2): 163/352 kB | 126/261 kBProgress (2): 163/352 kB | 131/261 kBProgress (2): 163/352 kB | 135/261 kBProgress (2): 163/352 kB | 139/261 kBProgress (2): 163/352 kB | 143/261 kBProgress (2): 163/352 kB | 147/261 kBProgress (2): 167/352 kB | 147/261 kBProgress (2): 171/352 kB | 147/261 kBProgress (2): 176/352 kB | 147/261 kBProgress (2): 180/352 kB | 147/261 kBProgress (2): 180/352 kB | 151/261 kBProgress (2): 180/352 kB | 155/261 kBProgress (2): 180/352 kB | 159/261 kBProgress (2): 180/352 kB | 163/261 kBProgress (2): 180/352 kB | 167/261 kBProgress (2): 180/352 kB | 171/261 kBProgress (2): 180/352 kB | 176/261 kBProgress (2): 180/352 kB | 180/261 kBProgress (2): 180/352 kB | 184/261 kBProgress (2): 180/352 kB | 188/261 kBProgress (2): 180/352 kB | 192/261 kBProgress (2): 180/352 kB | 196/261 kBProgress (2): 180/352 kB | 200/261 kBProgress (2): 180/352 kB | 204/261 kBProgress (2): 180/352 kB | 208/261 kBProgress (2): 180/352 kB | 212/261 kBProgress (2): 184/352 kB | 212/261 kBProgress (2): 188/352 kB | 212/261 kBProgress (2): 192/352 kB | 212/261 kBProgress (2): 192/352 kB | 217/261 kBProgress (2): 196/352 kB | 217/261 kBProgress (2): 196/352 kB | 221/261 kBProgress (2): 196/352 kB | 225/261 kBProgress (2): 196/352 kB | 229/261 kBProgress (2): 200/352 kB | 229/261 kBProgress (2): 204/352 kB | 229/261 kBProgress (2): 208/352 kB | 229/261 kBProgress (2): 208/352 kB | 233/261 kBProgress (2): 208/352 kB | 237/261 kBProgress (2): 208/352 kB | 241/261 kBProgress (2): 208/352 kB | 245/261 kBProgress (2): 208/352 kB | 249/261 kBProgress (2): 208/352 kB | 253/261 kBProgress (2): 208/352 kB | 258/261 kBProgress (2): 208/352 kB | 261 kB    Progress (2): 212/352 kB | 261 kBProgress (2): 217/352 kB | 261 kBProgress (2): 221/352 kB | 261 kBProgress (2): 225/352 kB | 261 kBProgress (2): 229/352 kB | 261 kBProgress (2): 233/352 kB | 261 kBProgress (2): 237/352 kB | 261 kBProgress (2): 241/352 kB | 261 kBProgress (2): 245/352 kB | 261 kBProgress (2): 249/352 kB | 261 kBProgress (2): 253/352 kB | 261 kBProgress (2): 258/352 kB | 261 kBProgress (2): 262/352 kB | 261 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/doxia/doxia-core/1.0-alpha-4/doxia-core-1.0-alpha-4.jar (261 kB at 1.2 MB/s)
-Progress (1): 266/352 kBProgress (1): 270/352 kBProgress (1): 274/352 kBProgress (1): 278/352 kBProgress (1): 282/352 kBProgress (1): 286/352 kBProgress (1): 290/352 kBProgress (1): 294/352 kBProgress (1): 298/352 kBProgress (1): 303/352 kBProgress (1): 307/352 kBProgress (1): 311/352 kBProgress (1): 315/352 kBProgress (1): 319/352 kBProgress (1): 323/352 kBProgress (1): 327/352 kBProgress (1): 331/352 kBProgress (1): 335/352 kBProgress (1): 339/352 kBProgress (1): 343/352 kBProgress (1): 348/352 kBProgress (1): 352/352 kBProgress (1): 352 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.9/log4j-1.2.9.jar (352 kB at 1.5 MB/s)
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:setup[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Creating new database at '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'.
-[[1;34mINFO[m] Processing files at 1.9 source level.
-[[1;34mINFO[m] Clover all over. Instrumented 408 files (38 packages).
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Updating existing database at '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'.
-[[1;34mINFO[m] Processing files at 1.9 source level.
-[[1;34mINFO[m] Clover all over. Instrumented 266 files (39 packages).
-[[1;34mINFO[m] 1795 test methods detected.
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.3:run[m [1m(javadoc.resources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Executing tasks
-     [copy] Copying 2 files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/apidocs/META-INF
-[[1;34mINFO[m] Executed tasks
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.0:process[m [1m(default)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
-[[1;34mINFO[m] Setting property: velocimacro.messages.on => 'false'.
-[[1;34mINFO[m] Setting property: resource.loader => 'classpath'.
-[[1;34mINFO[m] Setting property: resource.manager.logwhenfound => 'false'.
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.4.1:resources[m [1m(default-resources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 2 resources to META-INF
-[[1;34mINFO[m] Copying 1 resource
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.1:compile[m [1m(default-compile)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Compiling 408 source files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/classes
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:1.4.3:manifest[m [1m(bundle-manifest)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.4.1:testResources[m [1m(default-testResources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 11 resources
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.1:testCompile[m [1m(default-testCompile)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Compiling 266 source files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/test-classes
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.5:test[m [1m(default-test)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Surefire report directory: /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/surefire-reports
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest
-Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.499 sec <<< FAILURE!
-Running org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest
-Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.166 sec <<< FAILURE!
-
-Results :
-
-Failed tests: 
-  testMissedEndEvent(org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest)
-  testMissedEndEvent(org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest)
-
-Tests run: 19, Failures: 2, Errors: 0, Skipped: 0
-
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 2.1[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:aggregate[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 2.1[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:clover[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using Clover report descriptor: /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/clover-descriptor.xml
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Clover is enabled with initstring '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Loading coverage database from: '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'
-[[1;34mINFO[m] Writing HTML report to '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/site/clover'
-[[1;34mINFO[m] Done. Processed 39 packages in 8993ms (230ms per package).
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Clover is enabled with initstring '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Loading coverage database from: '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'
-[[1;34mINFO[m] Writing report to '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/site/clover/clover.xml'
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] [1;31mBUILD FAILURE[m
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  38.397 s
-[[1;34mINFO[m] Finished at: 2022-04-03T05:49:45+02:00
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.5:test[m [1m(default-test)[m on project [36mcommons-math[m: [1;31mThere are test failures.[m
-[[1;31mERROR[m] [1;31m[m
-[[1;31mERROR[m] [1;31mPlease refer to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/surefire-reports for the individual test results.[m
-[[1;31mERROR[m] -> [1m[Help 1][m
-[[1;31mERROR[m] 
-[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
-[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
-[[1;31mERROR[m] 
-[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
-[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
-[[1;34mINFO[m] Build failures were ignored.
-[[1;34mINFO[m] Scanning for projects...
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.commons:commons-math:jar:2.1
-[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:14, /home/khaes/.m2/repository/org/apache/commons/commons-parent/14/commons-parent-14.pom, line 329, column 15
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
-[[1;33mWARNING[m] 
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 2.1[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.4:clean[m [1m(default-clean)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mcobertura-maven-plugin:2.2:clean[m [1m(default)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:setup[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Creating new database at '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'.
-[[1;34mINFO[m] Processing files at 1.9 source level.
-[[1;34mINFO[m] Clover all over. Instrumented 408 files (38 packages).
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Updating existing database at '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'.
-[[1;34mINFO[m] Processing files at 1.9 source level.
-[[1;34mINFO[m] Clover all over. Instrumented 266 files (39 packages).
-[[1;34mINFO[m] 1795 test methods detected.
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.3:run[m [1m(javadoc.resources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Executing tasks
-     [copy] Copying 2 files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/apidocs/META-INF
-[[1;34mINFO[m] Executed tasks
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.0:process[m [1m(default)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
-[[1;34mINFO[m] Setting property: velocimacro.messages.on => 'false'.
-[[1;34mINFO[m] Setting property: resource.loader => 'classpath'.
-[[1;34mINFO[m] Setting property: resource.manager.logwhenfound => 'false'.
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.4.1:resources[m [1m(default-resources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 2 resources to META-INF
-[[1;34mINFO[m] Copying 1 resource
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.1:compile[m [1m(default-compile)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Compiling 408 source files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/classes
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:1.4.3:manifest[m [1m(bundle-manifest)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.4.1:testResources[m [1m(default-testResources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 11 resources
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.1:testCompile[m [1m(default-testCompile)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Compiling 266 source files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/test-classes
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.5:test[m [1m(default-test)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Surefire report directory: /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/surefire-reports
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.415 sec
-Running org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 sec
-
-Results :
-
-Tests run: 19, Failures: 0, Errors: 0, Skipped: 0
-
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 2.1[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:aggregate[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 2.1[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:clover[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using Clover report descriptor: /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/clover-descriptor.xml
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Clover is enabled with initstring '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Loading coverage database from: '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'
-[[1;34mINFO[m] Writing HTML report to '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/site/clover'
-[[1;34mINFO[m] Done. Processed 39 packages in 7855ms (201ms per package).
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Clover is enabled with initstring '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Loading coverage database from: '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'
-[[1;34mINFO[m] Writing report to '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/site/clover/clover.xml'
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  38.219 s
-[[1;34mINFO[m] Finished at: 2022-04-03T05:50:26+02:00
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

@@ -1,226 +1,0 @@
-[[1;34mINFO[m] Scanning for projects...
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/15/commons-parent-15.pom
-Progress (1): 2.7/32 kBProgress (1): 5.5/32 kBProgress (1): 8.2/32 kBProgress (1): 11/32 kB Progress (1): 14/32 kBProgress (1): 16/32 kBProgress (1): 19/32 kBProgress (1): 21/32 kBProgress (1): 24/32 kBProgress (1): 27/32 kBProgress (1): 30/32 kBProgress (1): 32 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/15/commons-parent-15.pom (32 kB at 94 kB/s)
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.commons:commons-math:jar:3.0-SNAPSHOT
-[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:15, /home/khaes/.m2/repository/org/apache/commons/commons-parent/15/commons-parent-15.pom, line 329, column 15
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
-[[1;33mWARNING[m] 
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 3.0-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.4/junit-4.4.pom
-Progress (1): 1.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.4/junit-4.4.pom (1.2 kB at 136 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.4/junit-4.4.jar
-Progress (1): 2.7/161 kBProgress (1): 5.5/161 kBProgress (1): 8.2/161 kBProgress (1): 11/161 kB Progress (1): 14/161 kBProgress (1): 16/161 kBProgress (1): 20/161 kBProgress (1): 24/161 kBProgress (1): 28/161 kBProgress (1): 32/161 kBProgress (1): 36/161 kBProgress (1): 40/161 kBProgress (1): 45/161 kBProgress (1): 49/161 kBProgress (1): 53/161 kBProgress (1): 57/161 kBProgress (1): 61/161 kBProgress (1): 65/161 kBProgress (1): 69/161 kBProgress (1): 73/161 kBProgress (1): 77/161 kBProgress (1): 81/161 kBProgress (1): 85/161 kBProgress (1): 90/161 kBProgress (1): 94/161 kBProgress (1): 98/161 kBProgress (1): 102/161 kBProgress (1): 106/161 kBProgress (1): 110/161 kBProgress (1): 114/161 kBProgress (1): 118/161 kBProgress (1): 122/161 kBProgress (1): 126/161 kBProgress (1): 131/161 kBProgress (1): 135/161 kBProgress (1): 139/161 kBProgress (1): 143/161 kBProgress (1): 147/161 kBProgress (1): 151/161 kBProgress (1): 155/161 kBProgress (1): 159/161 kBProgress (1): 161 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.4/junit-4.4.jar (161 kB at 4.4 MB/s)
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.4:clean[m [1m(default-clean)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:setup[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Creating new database at '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'.
-[[1;34mINFO[m] Processing files at 1.9 source level.
-[[1;34mINFO[m] Clover all over. Instrumented 498 files (40 packages).
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Updating existing database at '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'.
-[[1;34mINFO[m] Processing files at 1.9 source level.
-[[1;34mINFO[m] Clover all over. Instrumented 297 files (41 packages).
-[[1;34mINFO[m] 1935 test methods detected.
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.3:run[m [1m(javadoc.resources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Executing tasks
-     [copy] Copying 2 files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/apidocs/META-INF
-[[1;34mINFO[m] Executed tasks
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.0:process[m [1m(default)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
-[[1;34mINFO[m] Setting property: velocimacro.messages.on => 'false'.
-[[1;34mINFO[m] Setting property: resource.loader => 'classpath'.
-[[1;34mINFO[m] Setting property: resource.manager.logwhenfound => 'false'.
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.4.1:resources[m [1m(default-resources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 2 resources to META-INF
-[[1;34mINFO[m] Copying 1 resource to META-INF/localization
-[[1;34mINFO[m] Copying 1 resource
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.1:compile[m [1m(default-compile)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Compiling 498 source files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/classes
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:1.4.3:manifest[m [1m(bundle-manifest)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.4.1:testResources[m [1m(default-testResources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 11 resources
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.1:testCompile[m [1m(default-testCompile)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Compiling 297 source files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/test-classes
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.5:test[m [1m(default-test)[m @ [36mcommons-math[0;1m ---[m
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.5/surefire-junit4-2.5.pom
-Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.5/surefire-junit4-2.5.pom (2.0 kB at 9.9 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.0/junit-4.0.pom
-Progress (1): 210 B                   Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.0/junit-4.0.pom (210 B at 11 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.5/surefire-junit4-2.5.jar
-Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.0/junit-4.0.jar
-Progress (1): 4.1/12 kBProgress (1): 8.2/12 kBProgress (1): 12 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.5/surefire-junit4-2.5.jar (12 kB at 424 kB/s)
-Progress (1): 2.7/106 kBProgress (1): 5.5/106 kBProgress (1): 8.2/106 kBProgress (1): 11/106 kB Progress (1): 14/106 kBProgress (1): 16/106 kBProgress (1): 19/106 kBProgress (1): 21/106 kBProgress (1): 24/106 kBProgress (1): 27/106 kBProgress (1): 30/106 kBProgress (1): 32/106 kBProgress (1): 35/106 kBProgress (1): 38/106 kBProgress (1): 40/106 kBProgress (1): 43/106 kBProgress (1): 46/106 kBProgress (1): 49/106 kBProgress (1): 53/106 kBProgress (1): 57/106 kBProgress (1): 61/106 kBProgress (1): 65/106 kBProgress (1): 69/106 kBProgress (1): 73/106 kBProgress (1): 77/106 kBProgress (1): 81/106 kBProgress (1): 85/106 kBProgress (1): 90/106 kBProgress (1): 94/106 kBProgress (1): 98/106 kBProgress (1): 102/106 kBProgress (1): 106 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.0/junit-4.0.jar (106 kB at 1.6 MB/s)
-[[1;34mINFO[m] Surefire report directory: /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/surefire-reports
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.034 sec <<< FAILURE!
-
-Results :
-
-Failed tests: 
-  testSmallDistances(org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest)
-
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0
-
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 3.0-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:aggregate[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 3.0-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:clover[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using Clover report descriptor: /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/clover-descriptor.xml
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Clover is enabled with initstring '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Loading coverage database from: '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'
-[[1;34mINFO[m] Writing HTML report to '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/site/clover'
-[[1;34mINFO[m] Done. Processed 41 packages in 9660ms (235ms per package).
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Clover is enabled with initstring '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Loading coverage database from: '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/clover/clover.db'
-[[1;34mINFO[m] Writing report to '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/site/clover/clover.xml'
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] [1;31mBUILD FAILURE[m
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  41.641 s
-[[1;34mINFO[m] Finished at: 2022-04-03T02:52:15+02:00
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.5:test[m [1m(default-test)[m on project [36mcommons-math[m: [1;31mThere are test failures.[m
-[[1;31mERROR[m] [1;31m[m
-[[1;31mERROR[m] [1;31mPlease refer to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/original/target/surefire-reports for the individual test results.[m
-[[1;31mERROR[m] -> [1m[Help 1][m
-[[1;31mERROR[m] 
-[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
-[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
-[[1;31mERROR[m] 
-[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
-[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
-[[1;34mINFO[m] Build failures were ignored.
-[[1;34mINFO[m] Scanning for projects...
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.commons:commons-math:jar:3.0-SNAPSHOT
-[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:15, /home/khaes/.m2/repository/org/apache/commons/commons-parent/15/commons-parent-15.pom, line 329, column 15
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
-[[1;33mWARNING[m] 
-[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
-[[1;33mWARNING[m] 
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 3.0-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.4:clean[m [1m(default-clean)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:setup[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Creating new database at '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'.
-[[1;34mINFO[m] Processing files at 1.9 source level.
-[[1;34mINFO[m] Clover all over. Instrumented 498 files (40 packages).
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Updating existing database at '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'.
-[[1;34mINFO[m] Processing files at 1.9 source level.
-[[1;34mINFO[m] Clover all over. Instrumented 297 files (41 packages).
-[[1;34mINFO[m] 1935 test methods detected.
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.3:run[m [1m(javadoc.resources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Executing tasks
-     [copy] Copying 2 files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/apidocs/META-INF
-[[1;34mINFO[m] Executed tasks
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.0:process[m [1m(default)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
-[[1;34mINFO[m] Setting property: velocimacro.messages.on => 'false'.
-[[1;34mINFO[m] Setting property: resource.loader => 'classpath'.
-[[1;34mINFO[m] Setting property: resource.manager.logwhenfound => 'false'.
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.4.1:resources[m [1m(default-resources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 2 resources to META-INF
-[[1;34mINFO[m] Copying 1 resource to META-INF/localization
-[[1;34mINFO[m] Copying 1 resource
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.1:compile[m [1m(default-compile)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Compiling 498 source files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/classes
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:1.4.3:manifest[m [1m(bundle-manifest)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.4.1:testResources[m [1m(default-testResources)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] Copying 11 resources
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.1:testCompile[m [1m(default-testCompile)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Compiling 297 source files to /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/test-classes
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.5:test[m [1m(default-test)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Surefire report directory: /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/surefire-reports
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.022 sec
-
-Results :
-
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
-
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 3.0-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:aggregate[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------< [0;36morg.apache.commons:commons-math[0;1m >-------------------[m
-[[1;34mINFO[m] [1mBuilding Commons Math 3.0-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mclover-maven-plugin:4.4.1:clover[m [1m(default-cli)[m @ [36mcommons-math[0;1m ---[m
-[[1;34mINFO[m] Using Clover report descriptor: /home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/clover-descriptor.xml
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Clover is enabled with initstring '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Loading coverage database from: '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'
-[[1;34mINFO[m] Writing HTML report to '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/site/clover'
-[[1;34mINFO[m] Done. Processed 41 packages in 8413ms (205ms per package).
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Clover is enabled with initstring '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'
-[[1;34mINFO[m] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
-[[1;34mINFO[m] Loading coverage database from: '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/clover/clover.db'
-[[1;34mINFO[m] Writing report to '/home/khaes/phd/projects/explanation/code/tmp/proj-explanation/patched/target/site/clover/clover.xml'
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  40.501 s
-[[1;34mINFO[m] Finished at: 2022-04-03T02:52:58+02:00
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
