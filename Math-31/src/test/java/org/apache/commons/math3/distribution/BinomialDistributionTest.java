@@ -79,56 +79,6 @@ public class BinomialDistributionTest extends IntegerDistributionAbstractTest {
 
     // ----------------- Additional test cases ---------------------------------
 
-    /** Test degenerate case p = 0 */
-    @Test
-    public void testDegenerate0() throws Exception {
-        BinomialDistribution dist = new BinomialDistribution(5, 0.0d);
-        setDistribution(dist);
-        setCumulativeTestPoints(new int[] { -1, 0, 1, 5, 10 });
-        setCumulativeTestValues(new double[] { 0d, 1d, 1d, 1d, 1d });
-        setDensityTestPoints(new int[] { -1, 0, 1, 10, 11 });
-        setDensityTestValues(new double[] { 0d, 1d, 0d, 0d, 0d });
-        setInverseCumulativeTestPoints(new double[] { 0.1d, 0.5d });
-        setInverseCumulativeTestValues(new int[] { 0, 0 });
-        verifyDensities();
-        verifyCumulativeProbabilities();
-        verifyInverseCumulativeProbabilities();
-        Assert.assertEquals(dist.getSupportLowerBound(), 0);
-        Assert.assertEquals(dist.getSupportUpperBound(), 0);
-    }
-
-    /** Test degenerate case p = 1 */
-    @Test
-    public void testDegenerate1() throws Exception {
-        BinomialDistribution dist = new BinomialDistribution(5, 1.0d);
-        setDistribution(dist);
-        setCumulativeTestPoints(new int[] { -1, 0, 1, 2, 5, 10 });
-        setCumulativeTestValues(new double[] { 0d, 0d, 0d, 0d, 1d, 1d });
-        setDensityTestPoints(new int[] { -1, 0, 1, 2, 5, 10 });
-        setDensityTestValues(new double[] { 0d, 0d, 0d, 0d, 1d, 0d });
-        setInverseCumulativeTestPoints(new double[] { 0.1d, 0.5d });
-        setInverseCumulativeTestValues(new int[] { 5, 5 });
-        verifyDensities();
-        verifyCumulativeProbabilities();
-        verifyInverseCumulativeProbabilities();
-        Assert.assertEquals(dist.getSupportLowerBound(), 5);
-        Assert.assertEquals(dist.getSupportUpperBound(), 5);
-    }
-
-    @Test
-    public void testMoments() {
-        final double tol = 1e-9;
-        BinomialDistribution dist;
-
-        dist = new BinomialDistribution(10, 0.5);
-        Assert.assertEquals(dist.getNumericalMean(), 10d * 0.5d, tol);
-        Assert.assertEquals(dist.getNumericalVariance(), 10d * 0.5d * 0.5d, tol);
-
-        dist = new BinomialDistribution(30, 0.3);
-        Assert.assertEquals(dist.getNumericalMean(), 30d * 0.3d, tol);
-        Assert.assertEquals(dist.getNumericalVariance(), 30d * 0.3d * (1d - 0.3d), tol);
-    }
-
     @Test
     public void testMath718() {
         // for large trials the evaluation of ContinuedFraction was inaccurate
