@@ -39,39 +39,6 @@ public abstract class StorelessUnivariateStatisticAbstractTest
     /**Expected value for  the testArray defined in UnivariateStatisticAbstractTest */
     @Override
     public abstract double expectedValue();
-
-    /**
-     *  Verifies that increment() and incrementAll work properly.
-     */
-    @Test
-    public void testIncrementation() throws Exception {
-
-        StorelessUnivariateStatistic statistic =
-            (StorelessUnivariateStatistic) getUnivariateStatistic();
-
-        // Add testArray one value at a time and check result
-        for (int i = 0; i < testArray.length; i++) {
-            statistic.increment(testArray[i]);
-        }
-
-        Assert.assertEquals(expectedValue(), statistic.getResult(), getTolerance());
-        Assert.assertEquals(testArray.length, statistic.getN());
-
-        statistic.clear();
-
-        // Add testArray all at once and check again
-        statistic.incrementAll(testArray);
-        Assert.assertEquals(expectedValue(), statistic.getResult(), getTolerance());
-        Assert.assertEquals(testArray.length, statistic.getN());
-
-        statistic.clear();
-
-        // Cleared
-        checkClearValue(statistic);
-        Assert.assertEquals(0, statistic.getN());
-
-    }
-
     protected void checkClearValue(StorelessUnivariateStatistic statistic){
         Assert.assertTrue(Double.isNaN(statistic.getResult()));
     }

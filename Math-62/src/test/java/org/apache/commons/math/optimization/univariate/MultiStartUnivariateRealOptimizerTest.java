@@ -34,27 +34,6 @@ import org.junit.Test;
 public class MultiStartUnivariateRealOptimizerTest {
 
     @Test
-    public void testSinMin() throws MathException {
-        UnivariateRealFunction f = new SinFunction();
-        UnivariateRealOptimizer underlying = new BrentOptimizer(1e-10, 1e-14);
-        underlying.setMaxEvaluations(300);
-        JDKRandomGenerator g = new JDKRandomGenerator();
-        g.setSeed(44428400075l);
-        MultiStartUnivariateRealOptimizer optimizer =
-            new MultiStartUnivariateRealOptimizer(underlying, 10, g);
-        optimizer.optimize(f, GoalType.MINIMIZE, -100.0, 100.0);
-        UnivariateRealPointValuePair[] optima = optimizer.getOptima();
-        for (int i = 1; i < optima.length; ++i) {
-            double d = (optima[i].getPoint() - optima[i-1].getPoint()) / (2 * FastMath.PI);
-            assertTrue (FastMath.abs(d - FastMath.rint(d)) < 1.0e-8);
-            assertEquals(-1.0, f.value(optima[i].getPoint()), 1.0e-10);
-            assertEquals(f.value(optima[i].getPoint()), optima[i].getValue(), 1.0e-10);
-        }
-        assertTrue(optimizer.getEvaluations() > 200);
-        assertTrue(optimizer.getEvaluations() < 300);
-    }
-
-    @Test
     public void testQuinticMin() throws MathException {
         // The quintic function has zeros at 0, +-0.5 and +-1.
         // The function has extrema (first derivative is zero) at 0.27195613 and 0.82221643,
