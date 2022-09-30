@@ -29,42 +29,6 @@ import org.junit.Test;
 
 public class MultiDirectionalTest {
 
-  @Test
-  public void testFunctionEvaluationExceptions() {
-      MultivariateRealFunction wrong =
-          new MultivariateRealFunction() {
-            private static final long serialVersionUID = 4751314470965489371L;
-            public double value(double[] x) throws FunctionEvaluationException {
-                if (x[0] < 0) {
-                    throw new FunctionEvaluationException(x, "{0}", "oops");
-                } else if (x[0] > 1) {
-                    throw new FunctionEvaluationException(new RuntimeException("oops"), x);
-                } else {
-                    return x[0] * (1 - x[0]);
-                }
-            }
-      };
-      try {
-          MultiDirectional optimizer = new MultiDirectional(0.9, 1.9);
-          optimizer.optimize(wrong, GoalType.MINIMIZE, new double[] { -1.0 });
-          Assert.fail("an exception should have been thrown");
-      } catch (FunctionEvaluationException ce) {
-          // expected behavior
-          Assert.assertNull(ce.getCause());
-      } catch (Exception e) {
-          Assert.fail("wrong exception caught: " + e.getMessage());
-      } 
-      try {
-          MultiDirectional optimizer = new MultiDirectional(0.9, 1.9);
-          optimizer.optimize(wrong, GoalType.MINIMIZE, new double[] { +2.0 });
-          Assert.fail("an exception should have been thrown");
-      } catch (FunctionEvaluationException ce) {
-          // expected behavior
-          Assert.assertNotNull(ce.getCause());
-      } catch (Exception e) {
-          Assert.fail("wrong exception caught: " + e.getMessage());
-      } 
-  }
 
   @Test
   public void testMinimizeMaximize()
@@ -127,94 +91,6 @@ public class MultiDirectionalTest {
 
   }
 
-  @Test
-  public void testRosenbrock()
-    throws FunctionEvaluationException, ConvergenceException {
-
-    MultivariateRealFunction rosenbrock =
-      new MultivariateRealFunction() {
-        private static final long serialVersionUID = -9044950469615237490L;
-        public double value(double[] x) throws FunctionEvaluationException {
-          ++count;
-          double a = x[1] - x[0] * x[0];
-          double b = 1.0 - x[0];
-          return 100 * a * a + b * b;
-        }
-      };
-
-    count = 0;
-    MultiDirectional optimizer = new MultiDirectional();
-    optimizer.setConvergenceChecker(new SimpleScalarValueChecker(-1, 1.0e-3));
-    optimizer.setMaxIterations(100);
-    optimizer.setStartConfiguration(new double[][] {
-            { -1.2,  1.0 }, { 0.9, 1.2 } , {  3.5, -2.3 }
-    });
-    RealPointValuePair optimum =
-        optimizer.optimize(rosenbrock, GoalType.MINIMIZE, new double[] { -1.2, 1.0 });
-
-    Assert.assertEquals(count, optimizer.getEvaluations());
-    Assert.assertTrue(optimizer.getEvaluations() > 50);
-    Assert.assertTrue(optimizer.getEvaluations() < 100);
-    Assert.assertTrue(optimum.getValue() > 1.0e-2);
-
-  }
-
-  @Test
-  public void testPowell()
-    throws FunctionEvaluationException, ConvergenceException {
-
-    MultivariateRealFunction powell =
-      new MultivariateRealFunction() {
-        private static final long serialVersionUID = -832162886102041840L;
-        public double value(double[] x) throws FunctionEvaluationException {
-          ++count;
-          double a = x[0] + 10 * x[1];
-          double b = x[2] - x[3];
-          double c = x[1] - 2 * x[2];
-          double d = x[0] - x[3];
-          return a * a + 5 * b * b + c * c * c * c + 10 * d * d * d * d;
-        }
-      };
-
-    count = 0;
-    MultiDirectional optimizer = new MultiDirectional();
-    optimizer.setConvergenceChecker(new SimpleScalarValueChecker(-1.0, 1.0e-3));
-    optimizer.setMaxIterations(1000);
-    RealPointValuePair optimum =
-      optimizer.optimize(powell, GoalType.MINIMIZE, new double[] { 3.0, -1.0, 0.0, 1.0 });
-    Assert.assertEquals(count, optimizer.getEvaluations());
-    Assert.assertTrue(optimizer.getEvaluations() > 800);
-    Assert.assertTrue(optimizer.getEvaluations() < 900);
-    Assert.assertTrue(optimum.getValue() > 1.0e-2);
-
-  }
-
-  @Test
-  public void testMath283()
-      throws FunctionEvaluationException, OptimizationException {
-      // fails because MultiDirectional.iterateSimplex is looping forever
-      // the while(true) should be replaced with a convergence check
-      MultiDirectional multiDirectional = new MultiDirectional();
-      multiDirectional.setMaxIterations(100);
-      multiDirectional.setMaxEvaluations(1000);
-
-      final Gaussian2D function = new Gaussian2D(0.0, 0.0, 1.0);
-
-      RealPointValuePair estimate = multiDirectional.optimize(function,
-                                    GoalType.MAXIMIZE, function.getMaximumPosition());
-
-      final double EPSILON = 1e-5;
-
-      final double expectedMaximum = function.getMaximum();
-      final double actualMaximum = estimate.getValue();
-      Assert.assertEquals(expectedMaximum, actualMaximum, EPSILON);
-
-      final double[] expectedPosition = function.getMaximumPosition();
-      final double[] actualPosition = estimate.getPoint();
-      Assert.assertEquals(expectedPosition[0], actualPosition[0], EPSILON );
-      Assert.assertEquals(expectedPosition[1], actualPosition[1], EPSILON );
-      
-  }
 
   private static class Gaussian2D implements MultivariateRealFunction {
 

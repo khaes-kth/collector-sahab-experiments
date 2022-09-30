@@ -51,7 +51,6 @@ public class DiscreteRealDistributionTest {
                 new double[]{0.2, 0.2, 0.3, 0.3, 0.0, 0.0});
     }
 
-
     @Test
     public void testIssue942() {
         List<Pair<Object,Double>> list = new ArrayList<Pair<Object, Double>>();
