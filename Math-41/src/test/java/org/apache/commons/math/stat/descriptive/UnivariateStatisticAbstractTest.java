@@ -92,27 +92,27 @@ public abstract class UnivariateStatisticAbstractTest {
         return tolerance;
     }
 
-    @Test
-    public void testEvaluation() throws Exception {
-        Assert.assertEquals(
-            expectedValue(),
-            getUnivariateStatistic().evaluate(testArray),
-            getTolerance());
-    }
-    
-    @Test
-    public void testEvaluateArraySegment() {
-        final UnivariateStatistic stat = getUnivariateStatistic();
-        final double[] arrayZero = new double[5];
-        System.arraycopy(testArray, 0, arrayZero, 0, 5);
-        Assert.assertEquals(stat.evaluate(arrayZero), stat.evaluate(testArray, 0, 5), 0);
-        final double[] arrayOne = new double[5];
-        System.arraycopy(testArray, 5, arrayOne, 0, 5);
-        Assert.assertEquals(stat.evaluate(arrayOne), stat.evaluate(testArray, 5, 5), 0);
-        final double[] arrayEnd = new double[5];
-        System.arraycopy(testArray, testArray.length - 5, arrayEnd, 0, 5);
-        Assert.assertEquals(stat.evaluate(arrayEnd), stat.evaluate(testArray, testArray.length - 5, 5), 0);
-    }
+//    @Test
+//    public void testEvaluation() throws Exception {
+//        Assert.assertEquals(
+//            expectedValue(),
+//            getUnivariateStatistic().evaluate(testArray),
+//            getTolerance());
+//    }
+//
+//    @Test
+//    public void testEvaluateArraySegment() {
+//        final UnivariateStatistic stat = getUnivariateStatistic();
+//        final double[] arrayZero = new double[5];
+//        System.arraycopy(testArray, 0, arrayZero, 0, 5);
+//        Assert.assertEquals(stat.evaluate(arrayZero), stat.evaluate(testArray, 0, 5), 0);
+//        final double[] arrayOne = new double[5];
+//        System.arraycopy(testArray, 5, arrayOne, 0, 5);
+//        Assert.assertEquals(stat.evaluate(arrayOne), stat.evaluate(testArray, 5, 5), 0);
+//        final double[] arrayEnd = new double[5];
+//        System.arraycopy(testArray, testArray.length - 5, arrayEnd, 0, 5);
+//        Assert.assertEquals(stat.evaluate(arrayEnd), stat.evaluate(testArray, testArray.length - 5, 5), 0);
+//    }
     
     @Test
     public void testEvaluateArraySegmentWeighted() {
@@ -143,81 +143,81 @@ public abstract class UnivariateStatisticAbstractTest {
                 stat.evaluate(testArray, testWeightsArray, testArray.length - 5, 5), 0);
     }
 
-    @Test
-    public void testCopy() throws Exception {
-        UnivariateStatistic original = getUnivariateStatistic();
-        UnivariateStatistic copy = original.copy();
-        Assert.assertEquals(
-                expectedValue(),
-                copy.evaluate(testArray),
-                getTolerance());
-    }
-
-    /**
-     * Tests consistency of weighted statistic computation.
-     * For statistics that support weighted evaluation, this test case compares
-     * the result of direct computation on an array with repeated values with
-     * a weighted computation on the corresponding (shorter) array with each
-     * value appearing only once but with a weight value equal to its multiplicity
-     * in the repeating array.
-     */
-
-    @Test
-    public void testWeightedConsistency() throws Exception {
-
-        // See if this statistic computes weighted statistics
-        // If not, skip this test
-        UnivariateStatistic statistic = getUnivariateStatistic();
-        if (!(statistic instanceof WeightedEvaluation)) {
-            return;
-        }
-
-        // Create arrays of values and corresponding integral weights
-        // and longer array with values repeated according to the weights
-        final int len = 10;        // length of values array
-        final double mu = 0;       // mean of test data
-        final double sigma = 5;    // std dev of test data
-        double[] values = new double[len];
-        double[] weights = new double[len];
-        RandomData randomData = new RandomDataImpl();
-
-        // Fill weights array with random int values between 1 and 5
-        int[] intWeights = new int[len];
-        for (int i = 0; i < len; i++) {
-            intWeights[i] = randomData.nextInt(1, 5);
-            weights[i] = intWeights[i];
-        }
-
-        // Fill values array with random data from N(mu, sigma)
-        // and fill valuesList with values from values array with
-        // values[i] repeated weights[i] times, each i
-        List<Double> valuesList = new ArrayList<Double>();
-        for (int i = 0; i < len; i++) {
-            double value = randomData.nextGaussian(mu, sigma);
-            values[i] = value;
-            for (int j = 0; j < intWeights[i]; j++) {
-                valuesList.add(new Double(value));
-            }
-        }
-
-        // Dump valuesList into repeatedValues array
-        int sumWeights = valuesList.size();
-        double[] repeatedValues = new double[sumWeights];
-        for (int i = 0; i < sumWeights; i++) {
-            repeatedValues[i] = valuesList.get(i);
-        }
-
-        // Compare result of weighted statistic computation with direct computation
-        // on array of repeated values
-        WeightedEvaluation weightedStatistic = (WeightedEvaluation) statistic;
-        TestUtils.assertRelativelyEquals(statistic.evaluate(repeatedValues),
-                weightedStatistic.evaluate(values, weights, 0, values.length),
-                10E-14);
-
-        // Check consistency of weighted evaluation methods
-        Assert.assertEquals(weightedStatistic.evaluate(values, weights, 0, values.length),
-                weightedStatistic.evaluate(values, weights), Double.MIN_VALUE);
-
-    }
+//    @Test
+//    public void testCopy() throws Exception {
+//        UnivariateStatistic original = getUnivariateStatistic();
+//        UnivariateStatistic copy = original.copy();
+//        Assert.assertEquals(
+//                expectedValue(),
+//                copy.evaluate(testArray),
+//                getTolerance());
+//    }
+//
+//    /**
+//     * Tests consistency of weighted statistic computation.
+//     * For statistics that support weighted evaluation, this test case compares
+//     * the result of direct computation on an array with repeated values with
+//     * a weighted computation on the corresponding (shorter) array with each
+//     * value appearing only once but with a weight value equal to its multiplicity
+//     * in the repeating array.
+//     */
+//
+//    @Test
+//    public void testWeightedConsistency() throws Exception {
+//
+//        // See if this statistic computes weighted statistics
+//        // If not, skip this test
+//        UnivariateStatistic statistic = getUnivariateStatistic();
+//        if (!(statistic instanceof WeightedEvaluation)) {
+//            return;
+//        }
+//
+//        // Create arrays of values and corresponding integral weights
+//        // and longer array with values repeated according to the weights
+//        final int len = 10;        // length of values array
+//        final double mu = 0;       // mean of test data
+//        final double sigma = 5;    // std dev of test data
+//        double[] values = new double[len];
+//        double[] weights = new double[len];
+//        RandomData randomData = new RandomDataImpl();
+//
+//        // Fill weights array with random int values between 1 and 5
+//        int[] intWeights = new int[len];
+//        for (int i = 0; i < len; i++) {
+//            intWeights[i] = randomData.nextInt(1, 5);
+//            weights[i] = intWeights[i];
+//        }
+//
+//        // Fill values array with random data from N(mu, sigma)
+//        // and fill valuesList with values from values array with
+//        // values[i] repeated weights[i] times, each i
+//        List<Double> valuesList = new ArrayList<Double>();
+//        for (int i = 0; i < len; i++) {
+//            double value = randomData.nextGaussian(mu, sigma);
+//            values[i] = value;
+//            for (int j = 0; j < intWeights[i]; j++) {
+//                valuesList.add(new Double(value));
+//            }
+//        }
+//
+//        // Dump valuesList into repeatedValues array
+//        int sumWeights = valuesList.size();
+//        double[] repeatedValues = new double[sumWeights];
+//        for (int i = 0; i < sumWeights; i++) {
+//            repeatedValues[i] = valuesList.get(i);
+//        }
+//
+//        // Compare result of weighted statistic computation with direct computation
+//        // on array of repeated values
+//        WeightedEvaluation weightedStatistic = (WeightedEvaluation) statistic;
+//        TestUtils.assertRelativelyEquals(statistic.evaluate(repeatedValues),
+//                weightedStatistic.evaluate(values, weights, 0, values.length),
+//                10E-14);
+//
+//        // Check consistency of weighted evaluation methods
+//        Assert.assertEquals(weightedStatistic.evaluate(values, weights, 0, values.length),
+//                weightedStatistic.evaluate(values, weights), Double.MIN_VALUE);
+//
+//    }
 
 }

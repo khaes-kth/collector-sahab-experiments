@@ -89,6 +89,59 @@ public class NormalDistributionTest extends ContinuousDistributionAbstractTest  
                 0.977249868051821, 0.99865010196837, 0.999968328758167,  0.999999713348428});
         verifyCumulativeProbabilities();
     }
+//
+//    public void testQuantiles() throws Exception {
+//        setDensityTestValues(new double[] {0.0385649760808, 0.172836231799, 0.284958771715, 0.172836231799, 0.0385649760808,
+//                0.00316560600853, 9.55930184035e-05, 1.06194251052e-06});
+//        verifyQuantiles();
+//        verifyDensities();
+//
+//        setDistribution(new NormalDistributionImpl(0, 1));
+//        setDensityTestValues(new double[] {0.0539909665132, 0.241970724519, 0.398942280401, 0.241970724519, 0.0539909665132,
+//                0.00443184841194, 0.000133830225765, 1.48671951473e-06});
+//        verifyQuantiles();
+//        verifyDensities();
+//
+//        setDistribution(new NormalDistributionImpl(0, 0.1));
+//        setDensityTestValues(new double[] {0.539909665132, 2.41970724519, 3.98942280401, 2.41970724519,
+//                0.539909665132, 0.0443184841194, 0.00133830225765, 1.48671951473e-05});
+//        verifyQuantiles();
+//        verifyDensities();
+//    }
+//
+//    public void testInverseCumulativeProbabilityExtremes() throws Exception {
+//        setInverseCumulativeTestPoints(new double[] {0, 1});
+//        setInverseCumulativeTestValues(
+//                new double[] {Double.NEGATIVE_INFINITY, Double.POSITIVE_INFINITY});
+//        verifyInverseCumulativeProbabilities();
+//    }
+//
+//    public void testGetMean() {
+//        NormalDistribution distribution = (NormalDistribution) getDistribution();
+//        assertEquals(2.1, distribution.getMean(), 0);
+//    }
+//
+//    public void testGetStandardDeviation() {
+//        NormalDistribution distribution = (NormalDistribution) getDistribution();
+//        assertEquals(1.4, distribution.getStandardDeviation(), 0);
+//    }
+//
+//    public void testPreconditions() {
+//        try {
+//            new NormalDistributionImpl(1, 0);
+//            fail("Should have generated NotStrictlyPositiveException");
+//        } catch (NotStrictlyPositiveException e) {
+//            // Expected.
+//        }
+//    }
+
+    public void testDensity() {
+        double [] x = new double[]{-2, -1, 0, 1, 2};
+        // R 2.5: print(dnorm(c(-2,-1,0,1,2)), digits=10)
+        checkDensity(0, 1, x, new double[]{0.05399096651, 0.24197072452, 0.39894228040, 0.24197072452, 0.05399096651});
+        // R 2.5: print(dnorm(c(-2,-1,0,1,2), mean=1.1), digits=10)
+        checkDensity(1.1, 1, x, new double[]{0.003266819056,0.043983595980,0.217852177033,0.396952547477,0.266085249899});
+    }
 
     private void checkDensity(double mean, double sd, double[] x, double[] expected) {
         NormalDistribution d = new NormalDistributionImpl(mean, sd);
@@ -124,5 +177,17 @@ public class NormalDistributionTest extends ContinuousDistributionAbstractTest  
         assertEquals(distribution.cumulativeProbability(Double.NEGATIVE_INFINITY), 0, 0);
         
    }
+
+//    public void testMath280() throws MathException {
+//        NormalDistribution normal = new NormalDistributionImpl(0,1);
+//        double result = normal.inverseCumulativeProbability(0.9986501019683698);
+//        assertEquals(3.0, result, defaultTolerance);
+//        result = normal.inverseCumulativeProbability(0.841344746068543);
+//        assertEquals(1.0, result, defaultTolerance);
+//        result = normal.inverseCumulativeProbability(0.9999683287581673);
+//        assertEquals(4.0, result, defaultTolerance);
+//        result = normal.inverseCumulativeProbability(0.9772498680518209);
+//        assertEquals(2.0, result, defaultTolerance);
+//    }
 
 }
