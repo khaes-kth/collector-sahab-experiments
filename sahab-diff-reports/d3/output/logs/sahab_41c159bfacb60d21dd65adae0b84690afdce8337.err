@@ -1,0 +1,58 @@
+HEAD is now at e5d67a81 bugs added
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Previous HEAD position was e5d67a81 bugs added
+HEAD is now at 41c159bf patch applied
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Oct 12, 2022 8:03:32 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/khesoem/exec-diff/d3/collector-sahab/target/collector-sahab-0.0.1-SNAPSHOT-jar-with-dependencies.jar:/home/khesoem/exec-diff/d3/drr-execdiff/Math-84/sahab-left_41c159bfacb60d21dd65adae0b84690afdce8337/classes:/home/khesoem/exec-diff/d3/drr-execdiff/Math-84/sahab-left_41c159bfacb60d21dd65adae0b84690afdce8337/test-classes:/root/.m2/repository/junit/junit/4.4/junit-4.4.jar se.kth.debug.JUnitTestRunner org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMinimizeMaximize
+Oct 12, 2022 8:03:33 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 55477
+Oct 12, 2022 8:03:33 PM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.apache.commons.math.optimization.direct.MultiDirectional added!
+Oct 12, 2022 8:03:33 PM se.kth.debug.Debugger setBreakpoints
+WARNING: 64 is not a valid breakpoint in org.apache.commons.math.optimization.direct.MultiDirectional
+Oct 12, 2022 8:03:39 PM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Oct 12, 2022 8:03:40 PM se.kth.debug.Collector write
+INFO: Breakpoints serialised!
+Oct 12, 2022 8:03:40 PM se.kth.debug.Collector write
+INFO: Return values serialised!
+Oct 12, 2022 8:03:40 PM se.kth.debug.Collector write
+INFO: File output to: /home/khesoem/exec-diff/d3/output/sahab-reports/41c159bfacb60d21dd65adae0b84690afdce8337/left.json
+Oct 12, 2022 8:03:40 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/khesoem/exec-diff/d3/collector-sahab/target/collector-sahab-0.0.1-SNAPSHOT-jar-with-dependencies.jar:/home/khesoem/exec-diff/d3/drr-execdiff/Math-84/sahab-right_41c159bfacb60d21dd65adae0b84690afdce8337/classes:/home/khesoem/exec-diff/d3/drr-execdiff/Math-84/sahab-right_41c159bfacb60d21dd65adae0b84690afdce8337/test-classes:/root/.m2/repository/junit/junit/4.4/junit-4.4.jar se.kth.debug.JUnitTestRunner org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMinimizeMaximize
+Oct 12, 2022 8:03:40 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 50655
+Oct 12, 2022 8:03:40 PM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.apache.commons.math.optimization.direct.MultiDirectional added!
+Oct 12, 2022 8:03:41 PM se.kth.debug.Debugger setBreakpoints
+WARNING: 64 is not a valid breakpoint in org.apache.commons.math.optimization.direct.MultiDirectional
+Oct 12, 2022 8:04:02 PM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Oct 12, 2022 8:04:04 PM se.kth.debug.Collector write
+INFO: Breakpoints serialised!
+Oct 12, 2022 8:04:04 PM se.kth.debug.Collector write
+INFO: Return values serialised!
+Oct 12, 2022 8:04:04 PM se.kth.debug.Collector write
+INFO: File output to: /home/khesoem/exec-diff/d3/output/sahab-reports/41c159bfacb60d21dd65adae0b84690afdce8337/right.json

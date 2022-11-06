@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "scripts/bribe-sahab.py", line 118, in <module>
+    main()
+  File "scripts/bribe-sahab.py", line 101, in main
+    args = parser.parse_args()
+  File "/usr/lib/python3.6/argparse.py", line 1743, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+  File "/usr/lib/python3.6/argparse.py", line 1775, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+  File "/usr/lib/python3.6/argparse.py", line 1981, in _parse_known_args
+    start_index = consume_optional(start_index)
+  File "/usr/lib/python3.6/argparse.py", line 1921, in consume_optional
+    take_action(action, args, option_string)
+  File "/usr/lib/python3.6/argparse.py", line 1849, in take_action
+    action(self, namespace, argument_values, option_string)
+  File "scripts/bribe-sahab.py", line 21, in __call__
+    raise argparse.ArgumentTypeError(f"{directory} is not a maven project")
+argparse.ArgumentTypeError: /home/khesoem/exec-diff/d1/drr-execdiff/Math-105 is not a maven project

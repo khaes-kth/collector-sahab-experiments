@@ -1,0 +1,54 @@
+HEAD is now at e5d67a81 bugs added
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Previous HEAD position was e5d67a81 bugs added
+HEAD is now at dabc2643 patch applied
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Oct 15, 2022 10:27:10 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/khesoem/exec-diff/d2/collector-sahab/target/collector-sahab-0.0.1-SNAPSHOT-jar-with-dependencies.jar:/home/khesoem/exec-diff/d2/drr-execdiff/Time-11/sahab-left_dabc26435b66c915290d0fb3c7bdebd0aca30de7/classes:/home/khesoem/exec-diff/d2/drr-execdiff/Time-11/sahab-left_dabc26435b66c915290d0fb3c7bdebd0aca30de7/test-classes:/root/.m2/repository/org/joda/joda-convert/1.2/joda-convert-1.2.jar:/root/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar se.kth.debug.JUnitTestRunner org.joda.time.tz.TestCompiler::testDateTimeZoneBuilder
+Oct 15, 2022 10:27:10 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 35465
+Oct 15, 2022 10:27:10 PM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.joda.time.tz.DateTimeZoneBuilder added!
+Oct 15, 2022 10:27:17 PM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Oct 15, 2022 10:27:18 PM se.kth.debug.Collector write
+INFO: Breakpoints serialised!
+Oct 15, 2022 10:27:18 PM se.kth.debug.Collector write
+INFO: Return values serialised!
+Oct 15, 2022 10:27:18 PM se.kth.debug.Collector write
+INFO: File output to: /home/khesoem/exec-diff/d2/output/sahab-reports/dabc26435b66c915290d0fb3c7bdebd0aca30de7/left.json
+Oct 15, 2022 10:27:18 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/khesoem/exec-diff/d2/collector-sahab/target/collector-sahab-0.0.1-SNAPSHOT-jar-with-dependencies.jar:/home/khesoem/exec-diff/d2/drr-execdiff/Time-11/sahab-right_dabc26435b66c915290d0fb3c7bdebd0aca30de7/classes:/home/khesoem/exec-diff/d2/drr-execdiff/Time-11/sahab-right_dabc26435b66c915290d0fb3c7bdebd0aca30de7/test-classes:/root/.m2/repository/org/joda/joda-convert/1.2/joda-convert-1.2.jar:/root/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar se.kth.debug.JUnitTestRunner org.joda.time.tz.TestCompiler::testDateTimeZoneBuilder
+Oct 15, 2022 10:27:19 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 44655
+Oct 15, 2022 10:27:19 PM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.joda.time.tz.DateTimeZoneBuilder added!
+Oct 15, 2022 10:31:06 PM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Oct 15, 2022 10:31:26 PM se.kth.debug.Collector write
+INFO: Breakpoints serialised!
+Oct 15, 2022 10:31:26 PM se.kth.debug.Collector write
+INFO: Return values serialised!
+Oct 15, 2022 10:31:26 PM se.kth.debug.Collector write
+INFO: File output to: /home/khesoem/exec-diff/d2/output/sahab-reports/dabc26435b66c915290d0fb3c7bdebd0aca30de7/right.json

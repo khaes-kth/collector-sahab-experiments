@@ -1,0 +1,62 @@
+HEAD is now at e5d67a81 bugs added
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Previous HEAD position was e5d67a81 bugs added
+HEAD is now at 0ad946d4 patch applied
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Oct 03, 2022 7:42:25 AM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/khesoem/exec-diff/d1/collector-sahab/target/collector-sahab-0.0.1-SNAPSHOT-jar-with-dependencies.jar:/home/khesoem/exec-diff/d1/drr-execdiff/Math-81/sahab-left_0ad946d4c69ffeacb380e6a3f05c3d0c7b2b5410/classes:/home/khesoem/exec-diff/d1/drr-execdiff/Math-81/sahab-left_0ad946d4c69ffeacb380e6a3f05c3d0c7b2b5410/test-classes:/root/.m2/repository/junit/junit/4.4/junit-4.4.jar se.kth.debug.JUnitTestRunner org.apache.commons.math.linear.EigenDecompositionImplTest::testMath308
+Oct 03, 2022 7:42:26 AM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 53983
+Oct 03, 2022 7:42:26 AM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.apache.commons.math.linear.EigenDecompositionImpl added!
+Oct 03, 2022 7:42:26 AM se.kth.debug.Debugger setBreakpoints
+WARNING: 1476 is not a valid breakpoint in org.apache.commons.math.linear.EigenDecompositionImpl
+Oct 03, 2022 7:42:26 AM se.kth.debug.Debugger setBreakpoints
+WARNING: 1477 is not a valid breakpoint in org.apache.commons.math.linear.EigenDecompositionImpl
+Oct 03, 2022 7:42:32 AM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Oct 03, 2022 7:42:32 AM se.kth.debug.Collector write
+INFO: Breakpoints serialised!
+Oct 03, 2022 7:42:32 AM se.kth.debug.Collector write
+INFO: Return values serialised!
+Oct 03, 2022 7:42:32 AM se.kth.debug.Collector write
+INFO: File output to: /home/khesoem/exec-diff/d1/output/sahab-reports/0ad946d4c69ffeacb380e6a3f05c3d0c7b2b5410/left.json
+Oct 03, 2022 7:42:33 AM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/khesoem/exec-diff/d1/collector-sahab/target/collector-sahab-0.0.1-SNAPSHOT-jar-with-dependencies.jar:/home/khesoem/exec-diff/d1/drr-execdiff/Math-81/sahab-right_0ad946d4c69ffeacb380e6a3f05c3d0c7b2b5410/classes:/home/khesoem/exec-diff/d1/drr-execdiff/Math-81/sahab-right_0ad946d4c69ffeacb380e6a3f05c3d0c7b2b5410/test-classes:/root/.m2/repository/junit/junit/4.4/junit-4.4.jar se.kth.debug.JUnitTestRunner org.apache.commons.math.linear.EigenDecompositionImplTest::testMath308
+Oct 03, 2022 7:42:33 AM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 43647
+Oct 03, 2022 7:42:33 AM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.apache.commons.math.linear.EigenDecompositionImpl added!
+Oct 03, 2022 7:42:33 AM se.kth.debug.Debugger setBreakpoints
+WARNING: 1476 is not a valid breakpoint in org.apache.commons.math.linear.EigenDecompositionImpl
+Oct 03, 2022 7:42:33 AM se.kth.debug.Debugger setBreakpoints
+WARNING: 1477 is not a valid breakpoint in org.apache.commons.math.linear.EigenDecompositionImpl
+Oct 03, 2022 7:42:41 AM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Oct 03, 2022 7:42:41 AM se.kth.debug.Collector write
+INFO: Breakpoints serialised!
+Oct 03, 2022 7:42:41 AM se.kth.debug.Collector write
+INFO: Return values serialised!
+Oct 03, 2022 7:42:41 AM se.kth.debug.Collector write
+INFO: File output to: /home/khesoem/exec-diff/d1/output/sahab-reports/0ad946d4c69ffeacb380e6a3f05c3d0c7b2b5410/right.json

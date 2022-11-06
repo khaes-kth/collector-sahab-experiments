@@ -1,0 +1,78 @@
+HEAD is now at e5d67a81 bugs added
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Previous HEAD position was e5d67a81 bugs added
+HEAD is now at 70d2fe68 patch applied
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Oct 13, 2022 3:04:34 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/khesoem/exec-diff/d3/collector-sahab/target/collector-sahab-0.0.1-SNAPSHOT-jar-with-dependencies.jar:/home/khesoem/exec-diff/d3/drr-execdiff/Math-50/sahab-left_70d2fe684196ca1a29b3fa88ad58102effa02f20/classes:/home/khesoem/exec-diff/d3/drr-execdiff/Math-50/sahab-left_70d2fe684196ca1a29b3fa88ad58102effa02f20/test-classes:/root/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar se.kth.debug.JUnitTestRunner org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631
+Oct 13, 2022 3:04:34 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 54721
+Oct 13, 2022 3:04:34 PM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.apache.commons.math.analysis.solvers.BaseSecantSolver added!
+Oct 13, 2022 3:04:35 PM se.kth.debug.Debugger setBreakpoints
+WARNING: 158 is not a valid breakpoint in org.apache.commons.math.analysis.solvers.BaseSecantSolver
+Oct 13, 2022 3:04:35 PM se.kth.debug.Debugger setBreakpoints
+WARNING: 191 is not a valid breakpoint in org.apache.commons.math.analysis.solvers.BaseSecantSolver
+Oct 13, 2022 3:04:35 PM se.kth.debug.Debugger setBreakpoints
+WARNING: 212 is not a valid breakpoint in org.apache.commons.math.analysis.solvers.BaseSecantSolver
+Oct 13, 2022 3:04:35 PM se.kth.debug.Debugger setBreakpoints
+WARNING: 217 is not a valid breakpoint in org.apache.commons.math.analysis.solvers.BaseSecantSolver
+Oct 13, 2022 3:04:35 PM se.kth.debug.Debugger setBreakpoints
+WARNING: 222 is not a valid breakpoint in org.apache.commons.math.analysis.solvers.BaseSecantSolver
+Oct 13, 2022 3:04:35 PM se.kth.debug.Debugger setBreakpoints
+WARNING: 227 is not a valid breakpoint in org.apache.commons.math.analysis.solvers.BaseSecantSolver
+Oct 13, 2022 3:50:54 PM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Oct 13, 2022 3:53:08 PM se.kth.debug.Collector write
+INFO: Breakpoints serialised!
+Oct 13, 2022 3:53:08 PM se.kth.debug.Collector write
+INFO: Return values serialised!
+Oct 13, 2022 3:53:08 PM se.kth.debug.Collector write
+INFO: File output to: /home/khesoem/exec-diff/d3/output/sahab-reports/70d2fe684196ca1a29b3fa88ad58102effa02f20/left.json
+Oct 13, 2022 3:53:10 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/khesoem/exec-diff/d3/collector-sahab/target/collector-sahab-0.0.1-SNAPSHOT-jar-with-dependencies.jar:/home/khesoem/exec-diff/d3/drr-execdiff/Math-50/sahab-right_70d2fe684196ca1a29b3fa88ad58102effa02f20/classes:/home/khesoem/exec-diff/d3/drr-execdiff/Math-50/sahab-right_70d2fe684196ca1a29b3fa88ad58102effa02f20/test-classes:/root/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar se.kth.debug.JUnitTestRunner org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631
+Oct 13, 2022 3:53:10 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 46361
+Oct 13, 2022 3:53:10 PM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.apache.commons.math.analysis.solvers.BaseSecantSolver added!
+Oct 13, 2022 3:53:11 PM se.kth.debug.Debugger setBreakpoints
+WARNING: 158 is not a valid breakpoint in org.apache.commons.math.analysis.solvers.BaseSecantSolver
+Oct 13, 2022 3:53:11 PM se.kth.debug.Debugger setBreakpoints
+WARNING: 191 is not a valid breakpoint in org.apache.commons.math.analysis.solvers.BaseSecantSolver
+Oct 13, 2022 3:53:11 PM se.kth.debug.Debugger setBreakpoints
+WARNING: 212 is not a valid breakpoint in org.apache.commons.math.analysis.solvers.BaseSecantSolver
+Oct 13, 2022 3:53:11 PM se.kth.debug.Debugger setBreakpoints
+WARNING: 217 is not a valid breakpoint in org.apache.commons.math.analysis.solvers.BaseSecantSolver
+Oct 13, 2022 3:53:11 PM se.kth.debug.Debugger setBreakpoints
+WARNING: 222 is not a valid breakpoint in org.apache.commons.math.analysis.solvers.BaseSecantSolver
+Oct 13, 2022 3:53:11 PM se.kth.debug.Debugger setBreakpoints
+WARNING: 227 is not a valid breakpoint in org.apache.commons.math.analysis.solvers.BaseSecantSolver
+Oct 13, 2022 4:39:40 PM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Oct 13, 2022 4:41:48 PM se.kth.debug.Collector write
+INFO: Breakpoints serialised!
+Oct 13, 2022 4:41:48 PM se.kth.debug.Collector write
+INFO: No method exits were encountered.
+Oct 13, 2022 4:41:48 PM se.kth.debug.Collector write
+INFO: File output to: /home/khesoem/exec-diff/d3/output/sahab-reports/70d2fe684196ca1a29b3fa88ad58102effa02f20/right.json

@@ -1,0 +1,26 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 42076
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1664503877.895][WARNING]: This version of ChromeDriver has not been tested with Chrome version 102.
+Sep 30, 2022 2:11:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Sep 30, 2022 2:11:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: a no-op implementation
+Sep 30, 2022 2:11:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 102.
+Sep 30, 2022 2:11:18 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Sep 30, 2022 2:11:36 AM se.kth.assertgroup.core.analysis.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: Line mappings and vars computed.
+Sep 30, 2022 2:11:36 AM se.kth.assertgroup.core.analysis.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit 92a916b1bc372d6f5065d5b22fe460d8c81dbca8 line mappings and vars computation took 20526 MILLIS
+Sep 30, 2022 2:12:33 AM se.kth.assertgroup.core.analysis.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: ProgramStateDiff{firstOriginalUniqueStateSummary=UniqueStateSummary{differencingTest=org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631, firstUniqueStateLine=189, firstUniqueVarValLine=189, firstUniqueStateHash=570670931, firstUniqueVarVal='x0=6.717094328774089'}, firstPatchedUniqueStateSummary=UniqueStateSummary{differencingTest=org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631, firstUniqueStateLine=188, firstUniqueVarValLine=188, firstUniqueStateHash=1625088128, firstUniqueVarVal='x0=10.0'}, originalUniqueReturn=UniqueReturnSummary{differencingTest=org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631, firstUniqueVarValLine=239, firstUniqueReturnLine=239, firstUniqueReturnHash=-1186700920, firstUniqueVarVal='{return-object}=3.4341896575482003'}, patchedUniqueReturn=UniqueReturnSummary{differencingTest=null, firstUniqueVarValLine=null, firstUniqueReturnLine=null, firstUniqueReturnHash=null, firstUniqueVarVal='null'}}
+Sep 30, 2022 2:12:33 AM se.kth.assertgroup.core.analysis.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit 92a916b1bc372d6f5065d5b22fe460d8c81dbca8 diff computation took 56689 MILLIS
+Sep 30, 2022 2:12:33 AM se.kth.assertgroup.core.analysis.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit 92a916b1bc372d6f5065d5b22fe460d8c81dbca8 UI manipulation took 68 MILLIS

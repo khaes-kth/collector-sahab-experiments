@@ -1,0 +1,54 @@
+HEAD is now at e5d67a81 bugs added
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Previous HEAD position was e5d67a81 bugs added
+HEAD is now at 6208d94f patch applied
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Oct 12, 2022 6:27:50 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/khaes/phd/projects/explanation/code/tmp/collector-sahab/target/collector-sahab-0.0.1-SNAPSHOT-jar-with-dependencies.jar:/home/khaes/phd/projects/explanation/code/tmp/drr-execdiff/Math-5/sahab-left_6208d94f7bc97ae505f319f318e7bab71b5fedb3/classes:/home/khaes/phd/projects/explanation/code/tmp/drr-execdiff/Math-5/sahab-left_6208d94f7bc97ae505f319f318e7bab71b5fedb3/test-classes:/home/khaes/.m2/repository/junit/junit/4.10/junit-4.10.jar:/home/khaes/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar se.kth.debug.JUnitTestRunner org.apache.commons.math3.complex.ComplexTest::testReciprocalZero
+Oct 12, 2022 6:27:50 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 34399
+Oct 12, 2022 6:27:50 PM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.apache.commons.math3.complex.Complex added!
+Oct 12, 2022 6:27:52 PM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Oct 12, 2022 6:27:52 PM se.kth.debug.Collector write
+INFO: Breakpoints serialised!
+Oct 12, 2022 6:27:52 PM se.kth.debug.Collector write
+INFO: Return values serialised!
+Oct 12, 2022 6:27:52 PM se.kth.debug.Collector write
+INFO: File output to: /home/khaes/phd/projects/explanation/code/tmp/output/sahab-reports/6208d94f7bc97ae505f319f318e7bab71b5fedb3/left.json
+Oct 12, 2022 6:27:53 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/khaes/phd/projects/explanation/code/tmp/collector-sahab/target/collector-sahab-0.0.1-SNAPSHOT-jar-with-dependencies.jar:/home/khaes/phd/projects/explanation/code/tmp/drr-execdiff/Math-5/sahab-right_6208d94f7bc97ae505f319f318e7bab71b5fedb3/classes:/home/khaes/phd/projects/explanation/code/tmp/drr-execdiff/Math-5/sahab-right_6208d94f7bc97ae505f319f318e7bab71b5fedb3/test-classes:/home/khaes/.m2/repository/junit/junit/4.10/junit-4.10.jar:/home/khaes/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar se.kth.debug.JUnitTestRunner org.apache.commons.math3.complex.ComplexTest::testReciprocalZero
+Oct 12, 2022 6:27:53 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 47869
+Oct 12, 2022 6:27:53 PM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.apache.commons.math3.complex.Complex added!
+Oct 12, 2022 6:27:54 PM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Oct 12, 2022 6:27:55 PM se.kth.debug.Collector write
+INFO: Breakpoints serialised!
+Oct 12, 2022 6:27:55 PM se.kth.debug.Collector write
+INFO: Return values serialised!
+Oct 12, 2022 6:27:55 PM se.kth.debug.Collector write
+INFO: File output to: /home/khaes/phd/projects/explanation/code/tmp/output/sahab-reports/6208d94f7bc97ae505f319f318e7bab71b5fedb3/right.json

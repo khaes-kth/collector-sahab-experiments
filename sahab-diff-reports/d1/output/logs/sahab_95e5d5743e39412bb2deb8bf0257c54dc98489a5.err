@@ -1,0 +1,54 @@
+HEAD is now at e5d67a81 bugs added
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Previous HEAD position was e5d67a81 bugs added
+HEAD is now at 95e5d574 patch applied
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Sep 30, 2022 2:37:04 AM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/khesoem/exec-diff/d1/collector-sahab/target/collector-sahab-0.0.1-SNAPSHOT-jar-with-dependencies.jar:/home/khesoem/exec-diff/d1/drr-execdiff/Math-57/sahab-left_95e5d5743e39412bb2deb8bf0257c54dc98489a5/classes:/home/khesoem/exec-diff/d1/drr-execdiff/Math-57/sahab-left_95e5d5743e39412bb2deb8bf0257c54dc98489a5/test-classes:/root/.m2/repository/junit/junit/4.4/junit-4.4.jar se.kth.debug.JUnitTestRunner org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest::testSmallDistances
+Sep 30, 2022 2:37:04 AM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 36007
+Sep 30, 2022 2:37:04 AM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer added!
+Sep 30, 2022 3:07:43 AM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Sep 30, 2022 3:08:03 AM se.kth.debug.Collector write
+INFO: Breakpoints serialised!
+Sep 30, 2022 3:08:03 AM se.kth.debug.Collector write
+INFO: Return values serialised!
+Sep 30, 2022 3:08:03 AM se.kth.debug.Collector write
+INFO: File output to: /home/khesoem/exec-diff/d1/output/sahab-reports/95e5d5743e39412bb2deb8bf0257c54dc98489a5/left.json
+Sep 30, 2022 3:08:03 AM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/khesoem/exec-diff/d1/collector-sahab/target/collector-sahab-0.0.1-SNAPSHOT-jar-with-dependencies.jar:/home/khesoem/exec-diff/d1/drr-execdiff/Math-57/sahab-right_95e5d5743e39412bb2deb8bf0257c54dc98489a5/classes:/home/khesoem/exec-diff/d1/drr-execdiff/Math-57/sahab-right_95e5d5743e39412bb2deb8bf0257c54dc98489a5/test-classes:/root/.m2/repository/junit/junit/4.4/junit-4.4.jar se.kth.debug.JUnitTestRunner org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest::testSmallDistances
+Sep 30, 2022 3:08:03 AM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 39189
+Sep 30, 2022 3:08:03 AM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer added!
+Sep 30, 2022 3:44:54 AM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Sep 30, 2022 3:45:15 AM se.kth.debug.Collector write
+INFO: Breakpoints serialised!
+Sep 30, 2022 3:45:15 AM se.kth.debug.Collector write
+INFO: Return values serialised!
+Sep 30, 2022 3:45:15 AM se.kth.debug.Collector write
+INFO: File output to: /home/khesoem/exec-diff/d1/output/sahab-reports/95e5d5743e39412bb2deb8bf0257c54dc98489a5/right.json

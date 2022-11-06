@@ -1,0 +1,108 @@
+HEAD is now at e5d67a81 bugs added
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Previous HEAD position was e5d67a81 bugs added
+HEAD is now at cf51b103 patch applied
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Sep 29, 2022 4:15:55 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/khesoem/exec-diff/d1/collector-sahab/target/collector-sahab-0.0.1-SNAPSHOT-jar-with-dependencies.jar:/home/khesoem/exec-diff/d1/drr-execdiff/Math-28/sahab-left_cf51b103fdb4a232f3a27127a46acf43fd352b93/classes:/home/khesoem/exec-diff/d1/drr-execdiff/Math-28/sahab-left_cf51b103fdb4a232f3a27127a46acf43fd352b93/test-classes:/root/.m2/repository/junit/junit/4.10/junit-4.10.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar se.kth.debug.JUnitTestRunner org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828Cycle
+Sep 29, 2022 4:15:55 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 35507
+Sep 29, 2022 4:15:55 PM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.apache.commons.math3.optimization.linear.SimplexSolver added!
+Sep 29, 2022 4:19:01 PM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Sep 29, 2022 4:19:07 PM se.kth.debug.Collector write
+INFO: Breakpoints serialised!
+Sep 29, 2022 4:19:07 PM se.kth.debug.Collector write
+INFO: Return values serialised!
+Sep 29, 2022 4:19:07 PM se.kth.debug.Collector write
+INFO: File output to: /home/khesoem/exec-diff/d1/output/sahab-reports/cf51b103fdb4a232f3a27127a46acf43fd352b93/left.json
+Sep 29, 2022 4:19:07 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/khesoem/exec-diff/d1/collector-sahab/target/collector-sahab-0.0.1-SNAPSHOT-jar-with-dependencies.jar:/home/khesoem/exec-diff/d1/drr-execdiff/Math-28/sahab-right_cf51b103fdb4a232f3a27127a46acf43fd352b93/classes:/home/khesoem/exec-diff/d1/drr-execdiff/Math-28/sahab-right_cf51b103fdb4a232f3a27127a46acf43fd352b93/test-classes:/root/.m2/repository/junit/junit/4.10/junit-4.10.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar se.kth.debug.JUnitTestRunner org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828Cycle
+Sep 29, 2022 4:19:07 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 51991
+Sep 29, 2022 4:19:07 PM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.apache.commons.math3.optimization.linear.SimplexSolver added!
+Sep 29, 2022 4:19:47 PM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Sep 29, 2022 4:19:49 PM se.kth.debug.Collector write
+INFO: Breakpoints serialised!
+Sep 29, 2022 4:19:49 PM se.kth.debug.Collector write
+INFO: Return values serialised!
+Sep 29, 2022 4:19:49 PM se.kth.debug.Collector write
+INFO: File output to: /home/khesoem/exec-diff/d1/output/sahab-reports/cf51b103fdb4a232f3a27127a46acf43fd352b93/right.json
+HEAD is now at e5d67a81 bugs added
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Previous HEAD position was e5d67a81 bugs added
+HEAD is now at cf51b103 patch applied
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Oct 05, 2022 5:09:21 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/khesoem/exec-diff/d1/collector-sahab/target/collector-sahab-0.0.1-SNAPSHOT-jar-with-dependencies.jar:/home/khesoem/exec-diff/d1/drr-execdiff/Math-28/sahab-left_cf51b103fdb4a232f3a27127a46acf43fd352b93/classes:/home/khesoem/exec-diff/d1/drr-execdiff/Math-28/sahab-left_cf51b103fdb4a232f3a27127a46acf43fd352b93/test-classes:/root/.m2/repository/junit/junit/4.10/junit-4.10.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar se.kth.debug.JUnitTestRunner org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828Cycle
+Oct 05, 2022 5:09:22 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 58367
+Oct 05, 2022 5:09:22 PM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.apache.commons.math3.optimization.linear.SimplexSolver added!
+Oct 05, 2022 5:12:32 PM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Oct 05, 2022 5:12:38 PM se.kth.debug.Collector write
+INFO: Breakpoints serialised!
+Oct 05, 2022 5:12:38 PM se.kth.debug.Collector write
+INFO: Return values serialised!
+Oct 05, 2022 5:12:38 PM se.kth.debug.Collector write
+INFO: File output to: /home/khesoem/exec-diff/d1/output/sahab-reports/cf51b103fdb4a232f3a27127a46acf43fd352b93/left.json
+Oct 05, 2022 5:12:39 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/khesoem/exec-diff/d1/collector-sahab/target/collector-sahab-0.0.1-SNAPSHOT-jar-with-dependencies.jar:/home/khesoem/exec-diff/d1/drr-execdiff/Math-28/sahab-right_cf51b103fdb4a232f3a27127a46acf43fd352b93/classes:/home/khesoem/exec-diff/d1/drr-execdiff/Math-28/sahab-right_cf51b103fdb4a232f3a27127a46acf43fd352b93/test-classes:/root/.m2/repository/junit/junit/4.10/junit-4.10.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar se.kth.debug.JUnitTestRunner org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828Cycle
+Oct 05, 2022 5:12:39 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 41783
+Oct 05, 2022 5:12:39 PM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.apache.commons.math3.optimization.linear.SimplexSolver added!
+Oct 05, 2022 5:13:20 PM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Oct 05, 2022 5:13:21 PM se.kth.debug.Collector write
+INFO: Breakpoints serialised!
+Oct 05, 2022 5:13:21 PM se.kth.debug.Collector write
+INFO: Return values serialised!
+Oct 05, 2022 5:13:21 PM se.kth.debug.Collector write
+INFO: File output to: /home/khesoem/exec-diff/d1/output/sahab-reports/cf51b103fdb4a232f3a27127a46acf43fd352b93/right.json
