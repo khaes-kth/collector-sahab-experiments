@@ -14,7 +14,7 @@
                  "kind" : "path-problem",
                  "name" : "test property 1",
                  "problem.severity" : "error",
-                 "security-severity" : "9.8",
+                 "security-severity" : "9.8"
                }
             }
           ]
