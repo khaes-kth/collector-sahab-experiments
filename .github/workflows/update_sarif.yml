@@ -10,7 +10,7 @@ on:
 jobs:
   code-quality:
     runs-on: ubuntu-latest
-    name: Collector-Sahab [tmp](https://google.com/)
+    name: Collector-Sahab
     steps:
         - name: Create annotation for build error
-          run: echo "::warning file=Math-2/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,line=129,title=<rule violation>::Missing semicolon"
+          run: echo "::warning file=Math-2/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,line=129,title=[tmp](https://google.com/)::Missing semicolon [tmp](https://google.com/)"
