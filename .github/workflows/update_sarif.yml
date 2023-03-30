@@ -13,9 +13,9 @@ env:
 jobs:
   code-quality:
     runs-on: ubuntu-latest
-    name: Collector-Sahab / Running TestClass:testmethod()
+    name: COLLECTOR-SAHAB / Running WarningMinerTest:test_warningMiner() (https://github.com/SpoonLabs/sorald/blob/master/sorald/src/test/java/sorald/miner/WarningMinerTest.java#L47)
     steps:
         - name: Ubuntu GitHub Actions environment variables List
           run: env
         - name: Create annotation for build error
-          run: echo "::warning file=Math-2/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,line=129,title=${GITHUB_ACTOR}::Only occurs in the ORIGINAL"
+          run: echo "::warning file=Math-2/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,line=129,title='var1 = val1'::Only occurs in the ORIGINAL"
