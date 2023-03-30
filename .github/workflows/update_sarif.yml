@@ -13,4 +13,4 @@ jobs:
     name: Collector-Sahab
     steps:
         - name: Create annotation for build error
-          run: echo "::warning file=Math-2/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,line=129,title=${{ GITHUB_ACTOR }}::Missing semicolon [tmp](https://google.com/)"
+          run: echo "::warning file=Math-2/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,line=129,title=${GITHUB_ACTOR}::Missing semicolon [tmp](https://google.com/)"
