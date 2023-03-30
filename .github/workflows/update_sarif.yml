@@ -18,4 +18,4 @@ jobs:
         - name: Ubuntu GitHub Actions environment variables List
           run: env
         - name: Create annotation for build error
-          run: echo "::warning file=Math-2/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,line=129,title='var1 = val1'::Only occurs in the ORIGINAL"
+          run: echo "::warning file=Math-2/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,line=129,title='K=0.5'::Only occurs in the ORIGINAL."
