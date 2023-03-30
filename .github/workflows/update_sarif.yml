@@ -13,7 +13,7 @@ env:
 jobs:
   code-quality:
     runs-on: ubuntu-latest
-    name: COLLECTOR-SAHAB / Running WarningMinerTest:test_warningMiner() (https://github.com/SpoonLabs/sorald/blob/master/sorald/src/test/java/sorald/miner/WarningMinerTest.java#L47)
+    name: COLLECTOR-SAHAB / EXECUTING-TEST -> WarningMinerTest:test_warningMiner()
     steps:
         - name: Ubuntu GitHub Actions environment variables List
           run: env
