@@ -10,7 +10,7 @@ on:
 jobs:
   code-quality:
     runs-on: ubuntu-latest
-    name: code-quality Collector-Sahab
+    name: Collector-Sahab
     steps:
         - name: Create annotation for build error
           run: echo "::warning file=Math-2/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,startLine=129::Missing semicolon"
