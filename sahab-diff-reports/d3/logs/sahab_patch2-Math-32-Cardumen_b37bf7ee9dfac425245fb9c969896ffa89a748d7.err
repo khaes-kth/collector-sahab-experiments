@@ -1,0 +1,19 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 22865
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 02, 2023 4:18:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 110
+May 02, 2023 4:19:06 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: Line mappings and vars computed.
+May 02, 2023 4:19:06 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit b37bf7ee9dfac425245fb9c969896ffa89a748d7 line mappings and vars computation took 38941 MILLIS
+May 02, 2023 4:26:04 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: ProgramStateDiff{firstOriginalUniqueStateSummary=UniqueStateSummary{differencingTest=org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest, firstUniqueVarValLine=331, firstUniqueVarVal=inverse=1.0000000000000002'}, firstPatchedUniqueStateSummary=UniqueStateSummary{differencingTest=org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest, firstUniqueVarValLine=331, firstUniqueVarVal=inverse=-0.7071067811865475'}, originalUniqueReturn=UniqueReturnSummary{differencingTest=org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest, firstUniqueVarValLine=331, firstUniqueVarVal='{return-object}.z=-0.7071067811865476'}, patchedUniqueReturn=UniqueReturnSummary{differencingTest=org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest, firstUniqueVarValLine=331, firstUniqueVarVal='{return-object}.x=0.4999999999999999'}}
+May 02, 2023 4:26:04 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit b37bf7ee9dfac425245fb9c969896ffa89a748d7 diff computation took 417666 MILLIS
+May 02, 2023 4:26:04 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit b37bf7ee9dfac425245fb9c969896ffa89a748d7 UI manipulation took 60 MILLIS

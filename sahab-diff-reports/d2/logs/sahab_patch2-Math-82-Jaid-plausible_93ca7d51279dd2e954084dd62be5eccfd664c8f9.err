@@ -1,0 +1,62 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 14926
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 02, 2023 10:59:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 110
+May 02, 2023 11:00:14 AM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: Line mappings and vars computed.
+May 02, 2023 11:00:14 AM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit 93ca7d51279dd2e954084dd62be5eccfd664c8f9 line mappings and vars computation took 18879 MILLIS
+java.io.FileNotFoundException: /tmp/Math-82_e5d67a8_93ca7d5_5580151862350698806/left/output/0.json (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:120)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.getFirstDistinctStateOnRelevantLine(StateDiffComputer.java:186)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.computeProgramStateDiff(StateDiffComputer.java:48)
+	at io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator.addStateDiffToExecDiffUI(StateDiffUIManipulator.java:88)
+	at io.github.chains_project.tracediff.statediff.StateDiffCommand.call(StateDiffCommand.java:68)
+	at io.github.chains_project.tracediff.statediff.StateDiffCommand.call(StateDiffCommand.java:9)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at io.github.chains_project.tracediff.ExecDiffMain.main(ExecDiffMain.java:18)
+	at io.github.chains_project.cs.Main.call(Main.java:203)
+	at io.github.chains_project.cs.Main.call(Main.java:28)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at io.github.chains_project.cs.Main.main(Main.java:93)
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 31857
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 04, 2023 4:51:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 110
+May 04, 2023 4:51:38 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: Line mappings and vars computed.
+May 04, 2023 4:51:38 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit 93ca7d51279dd2e954084dd62be5eccfd664c8f9 line mappings and vars computation took 20071 MILLIS
+May 04, 2023 4:52:20 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: ProgramStateDiff{firstOriginalUniqueStateSummary=UniqueStateSummary{differencingTest=org.apache.commons.math.optimization.linear.SimplexSolverTest, firstUniqueVarValLine=84, firstUniqueVarVal=minRatio=4.0'}, firstPatchedUniqueStateSummary=UniqueStateSummary{differencingTest=org.apache.commons.math.optimization.linear.SimplexSolverTest, firstUniqueVarValLine=84, firstUniqueVarVal=minRatio=12.0'}, originalUniqueReturn=UniqueReturnSummary{differencingTest=null, firstUniqueVarValLine=null, firstUniqueVarVal='null'}, patchedUniqueReturn=UniqueReturnSummary{differencingTest=null, firstUniqueVarValLine=null, firstUniqueVarVal='null'}}
+May 04, 2023 4:52:20 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit 93ca7d51279dd2e954084dd62be5eccfd664c8f9 diff computation took 42240 MILLIS
+May 04, 2023 4:52:20 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit 93ca7d51279dd2e954084dd62be5eccfd664c8f9 UI manipulation took 52 MILLIS

@@ -1,0 +1,19 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 27959
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 01, 2023 9:51:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 110
+May 01, 2023 9:52:10 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: Line mappings and vars computed.
+May 01, 2023 9:52:10 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit 845942cce5a23fa105529929d98b0a73d0e838c3 line mappings and vars computation took 19619 MILLIS
+May 01, 2023 9:59:05 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: ProgramStateDiff{firstOriginalUniqueStateSummary=UniqueStateSummary{differencingTest=org.apache.commons.math3.optimization.linear.SimplexSolverTest, firstUniqueVarValLine=94, firstUniqueVarVal=tableau.tableau.data[0].=[-1.0, 0.0, 0.0, 78.03362505757715, 47.21292799017347, 125.25346230615693, 126.69430370029173, 108.94300629510212, 10.67649316751113, 11.366927683095344, 118.32584062643943, 0.0, 209.2505450637187, 70.56920006141559, 64.58311070167356, 99.44317518808539, 129.07870413020112, 70.36213726393368, 77.38654997696915, 158.73634269921695]'}, firstPatchedUniqueStateSummary=UniqueStateSummary{differencingTest=org.apache.commons.math3.optimization.linear.SimplexSolverTest, firstUniqueVarValLine=139, firstUniqueVarVal=tableau.numArtificialVariables=7'}, originalUniqueReturn=UniqueReturnSummary{differencingTest=org.apache.commons.math3.optimization.linear.SimplexSolverTest, firstUniqueVarValLine=151, firstUniqueVarVal='{return-object}=5'}, patchedUniqueReturn=UniqueReturnSummary{differencingTest=org.apache.commons.math3.optimization.linear.SimplexSolverTest, firstUniqueVarValLine=151, firstUniqueVarVal='{return-object}=4'}}
+May 01, 2023 9:59:05 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit 845942cce5a23fa105529929d98b0a73d0e838c3 diff computation took 415175 MILLIS
+May 01, 2023 9:59:06 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit 845942cce5a23fa105529929d98b0a73d0e838c3 UI manipulation took 102 MILLIS

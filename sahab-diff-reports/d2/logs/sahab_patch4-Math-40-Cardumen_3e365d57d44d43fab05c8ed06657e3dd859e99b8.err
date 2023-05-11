@@ -1,0 +1,19 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 23511
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 02, 2023 5:39:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 110
+May 02, 2023 5:39:52 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: Line mappings and vars computed.
+May 02, 2023 5:39:52 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit 3e365d57d44d43fab05c8ed06657e3dd859e99b8 line mappings and vars computation took 28963 MILLIS
+May 02, 2023 5:40:02 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: ProgramStateDiff{firstOriginalUniqueStateSummary=UniqueStateSummary{differencingTest=org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest, firstUniqueVarValLine=252, firstUniqueVarVal=tmpX=[1.4655434461725716, 1.4655712318270955, 1.465571231876768, 1.4655712318798726, 1.4660258570655063, -4.2681342881332165E8]'}, firstPatchedUniqueStateSummary=UniqueStateSummary{differencingTest=org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest, firstUniqueVarValLine=254, firstUniqueVarVal=nextX=-10.317439052764781'}, originalUniqueReturn=UniqueReturnSummary{differencingTest=org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest, firstUniqueVarValLine=222, firstUniqueVarVal='{return-object}=0.5001925048587091'}, patchedUniqueReturn=UniqueReturnSummary{differencingTest=org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest, firstUniqueVarValLine=222, firstUniqueVarVal='{return-object}=0.5000089644433412'}}
+May 02, 2023 5:40:02 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit 3e365d57d44d43fab05c8ed06657e3dd859e99b8 diff computation took 10249 MILLIS
+May 02, 2023 5:40:02 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit 3e365d57d44d43fab05c8ed06657e3dd859e99b8 UI manipulation took 90 MILLIS

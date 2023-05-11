@@ -1,0 +1,77 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 27940
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 02, 2023 5:02:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 110
+May 02, 2023 5:02:49 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: Line mappings and vars computed.
+May 02, 2023 5:02:49 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit 5f99f45853b5c98bff5dbcbfeac837aa2c686d8c line mappings and vars computation took 23968 MILLIS
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+May 02, 2023 5:14:28 PM io.netty.util.HashedWheelTimer$HashedWheelTimeout expire
+WARNING: An exception was thrown while submit TimerTask for execution.
+java.lang.OutOfMemoryError: Java heap space
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 3754
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 04, 2023 7:58:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 110
+May 04, 2023 7:59:19 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: Line mappings and vars computed.
+May 04, 2023 7:59:19 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit 5f99f45853b5c98bff5dbcbfeac837aa2c686d8c line mappings and vars computation took 25461 MILLIS
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.HashMap.resize(HashMap.java:700)
+	at java.base/java.util.HashMap.putVal(HashMap.java:659)
+	at java.base/java.util.HashMap.put(HashMap.java:608)
+	at java.base/java.util.HashSet.add(HashSet.java:220)
+	at java.base/java.util.AbstractCollection.addAll(AbstractCollection.java:352)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.extractVarVals(StateDiffComputer.java:345)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.extractVarVals(StateDiffComputer.java:334)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.extractVarVals(StateDiffComputer.java:313)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.getLineStateVals(StateDiffComputer.java:269)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.getFirstDistinctStateOnRelevantLine(StateDiffComputer.java:194)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.computeProgramStateDiff(StateDiffComputer.java:48)
+	at io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator.addStateDiffToExecDiffUI(StateDiffUIManipulator.java:88)
+	at io.github.chains_project.tracediff.statediff.StateDiffCommand.call(StateDiffCommand.java:68)
+	at io.github.chains_project.tracediff.statediff.StateDiffCommand.call(StateDiffCommand.java:9)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at io.github.chains_project.tracediff.ExecDiffMain.main(ExecDiffMain.java:18)
+	at io.github.chains_project.cs.Main.call(Main.java:203)
+	at io.github.chains_project.cs.Main.call(Main.java:28)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+May 04, 2023 8:07:24 PM io.netty.util.HashedWheelTimer$HashedWheelTimeout run
+WARNING: An exception was thrown by TimerTask.
+java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.concurrent.ConcurrentHashMap$ValuesView.iterator(ConcurrentHashMap.java:4730)
+	at org.asynchttpclient.netty.channel.DefaultChannelPool$IdleChannelDetector.run(DefaultChannelPool.java:356)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+

@@ -1,0 +1,102 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 23349
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 03, 2023 12:07:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 110
+May 03, 2023 12:07:47 AM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: Line mappings and vars computed.
+May 03, 2023 12:07:47 AM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit acf61536ac09406e477a5e900c5f0b0c9691fdf7 line mappings and vars computation took 24265 MILLIS
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.lambda$getLineStateVals$2(StateDiffComputer.java:284)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer$$Lambda$459/0x00007f7bdc90a4b0.accept(Unknown Source)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.getLineStateVals(StateDiffComputer.java:284)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.getFirstDistinctStateOnRelevantLine(StateDiffComputer.java:194)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.computeProgramStateDiff(StateDiffComputer.java:48)
+	at io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator.addStateDiffToExecDiffUI(StateDiffUIManipulator.java:88)
+	at io.github.chains_project.tracediff.statediff.StateDiffCommand.call(StateDiffCommand.java:68)
+	at io.github.chains_project.tracediff.statediff.StateDiffCommand.call(StateDiffCommand.java:9)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at io.github.chains_project.tracediff.ExecDiffMain.main(ExecDiffMain.java:18)
+	at io.github.chains_project.cs.Main.call(Main.java:203)
+	at io.github.chains_project.cs.Main.call(Main.java:28)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at io.github.chains_project.cs.Main.main(Main.java:93)
+May 03, 2023 12:16:06 AM io.netty.util.HashedWheelTimer$HashedWheelTimeout run
+WARNING: An exception was thrown by TimerTask.
+java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.concurrent.ConcurrentHashMap$ValuesView.iterator(ConcurrentHashMap.java:4730)
+	at org.asynchttpclient.netty.channel.DefaultChannelPool$IdleChannelDetector.run(DefaultChannelPool.java:356)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 9407
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 04, 2023 8:12:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 110
+May 04, 2023 8:12:28 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: Line mappings and vars computed.
+May 04, 2023 8:12:28 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit acf61536ac09406e477a5e900c5f0b0c9691fdf7 line mappings and vars computation took 33994 MILLIS
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.HashMap.keySet(HashMap.java:904)
+	at java.base/java.util.HashSet.iterator(HashSet.java:173)
+	at java.base/java.util.AbstractCollection.addAll(AbstractCollection.java:351)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.extractVarVals(StateDiffComputer.java:345)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.extractVarVals(StateDiffComputer.java:334)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.extractVarVals(StateDiffComputer.java:334)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.extractVarVals(StateDiffComputer.java:313)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.getLineStateVals(StateDiffComputer.java:269)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.getFirstDistinctStateOnRelevantLine(StateDiffComputer.java:194)
+	at io.github.chains_project.tracediff.statediff.computer.StateDiffComputer.computeProgramStateDiff(StateDiffComputer.java:48)
+	at io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator.addStateDiffToExecDiffUI(StateDiffUIManipulator.java:88)
+	at io.github.chains_project.tracediff.statediff.StateDiffCommand.call(StateDiffCommand.java:68)
+	at io.github.chains_project.tracediff.statediff.StateDiffCommand.call(StateDiffCommand.java:9)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at io.github.chains_project.tracediff.ExecDiffMain.main(ExecDiffMain.java:18)
+	at io.github.chains_project.cs.Main.call(Main.java:203)
+	at io.github.chains_project.cs.Main.call(Main.java:28)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)

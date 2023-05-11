@@ -1,0 +1,19 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 10255
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 01, 2023 7:46:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 110
+May 01, 2023 7:47:42 AM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: Line mappings and vars computed.
+May 01, 2023 7:47:42 AM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit dded8c8768783849eff6afe8e34d809e8ec4d3f2 line mappings and vars computation took 81517 MILLIS
+May 01, 2023 7:50:53 AM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: ProgramStateDiff{firstOriginalUniqueStateSummary=UniqueStateSummary{differencingTest=org.apache.commons.math3.optimization.direct.CMAESOptimizerTest, firstUniqueVarValLine=990, firstUniqueVarVal=x=[0.38092478328231855, 0.39019985667644946, 0.3755214358140878, 0.37533371280695665, 0.34883731567778553, 0.3957150393264621, 0.3921308804642504, 0.4310053831115054, 0.38664593662572466, 0.4199615150468424, 0.41532855565527343, 0.36545667337079385, 0.3766523896709348]'}, firstPatchedUniqueStateSummary=UniqueStateSummary{differencingTest=org.apache.commons.math3.optimization.direct.CMAESOptimizerTest, firstUniqueVarValLine=990, firstUniqueVarVal=x=[0.39846119023121257, 0.4249602381497902, 0.28015687167969106, 0.35430459297807476, 0.39667852604617315, 0.39505988020379096, 0.3285718191959846, 0.3553811134305823, 0.2785585795322536, 0.3849584889282206, 0.38465929955850586, 0.3961280581360191, 0.3370211764463043]'}, originalUniqueReturn=UniqueReturnSummary{differencingTest=org.apache.commons.math3.optimization.direct.CMAESOptimizerTest, firstUniqueVarValLine=1000, firstUniqueVarVal='{return-object}=[0.38092478328231855, 0.39019985667644946, 0.3755214358140878, 0.37533371280695665, 0.34883731567778553, 0.3957150393264621, 0.3921308804642504, 0.4310053831115054, 0.38664593662572466, 0.4199615150468424, 0.41532855565527343, 0.36545667337079385, 0.3766523896709348]'}, patchedUniqueReturn=UniqueReturnSummary{differencingTest=org.apache.commons.math3.optimization.direct.CMAESOptimizerTest, firstUniqueVarValLine=1000, firstUniqueVarVal='{return-object}=[0.39846119023121257, 0.4249602381497902, 0.28015687167969106, 0.35430459297807476, 0.39667852604617315, 0.39505988020379096, 0.3285718191959846, 0.3553811134305823, 0.2785585795322536, 0.3849584889282206, 0.38465929955850586, 0.3961280581360191, 0.3370211764463043]'}}
+May 01, 2023 7:50:53 AM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit dded8c8768783849eff6afe8e34d809e8ec4d3f2 diff computation took 191197 MILLIS
+May 01, 2023 7:50:53 AM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit dded8c8768783849eff6afe8e34d809e8ec4d3f2 UI manipulation took 46 MILLIS

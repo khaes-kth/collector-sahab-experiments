@@ -1,0 +1,19 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 26583
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 01, 2023 8:54:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 110
+May 01, 2023 8:54:51 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: Line mappings and vars computed.
+May 01, 2023 8:54:51 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit c869ef5c251cb9c94b14347cd918b9f2d921dc7e line mappings and vars computation took 18469 MILLIS
+May 01, 2023 8:55:04 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: ProgramStateDiff{firstOriginalUniqueStateSummary=UniqueStateSummary{differencingTest=org.apache.commons.math3.distribution.HypergeometricDistributionTest, firstUniqueVarValLine=101, firstUniqueVarVal=p=0.5768763786292463'}, firstPatchedUniqueStateSummary=UniqueStateSummary{differencingTest=org.apache.commons.math3.distribution.HypergeometricDistributionTest, firstUniqueVarValLine=101, firstUniqueVarVal=p=0.8283195259871738'}, originalUniqueReturn=UniqueReturnSummary{differencingTest=org.apache.commons.math3.distribution.HypergeometricDistributionTest, firstUniqueVarValLine=142, firstUniqueVarVal='{return-object}=-50'}, patchedUniqueReturn=UniqueReturnSummary{differencingTest=org.apache.commons.math3.distribution.HypergeometricDistributionTest, firstUniqueVarValLine=142, firstUniqueVarVal='{return-object}=50'}}
+May 01, 2023 8:55:04 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit c869ef5c251cb9c94b14347cd918b9f2d921dc7e diff computation took 12705 MILLIS
+May 01, 2023 8:55:04 PM io.github.chains_project.tracediff.statediff.ui.StateDiffUIManipulator addStateDiffToExecDiffUI
+INFO: For commit c869ef5c251cb9c94b14347cd918b9f2d921dc7e UI manipulation took 131 MILLIS
