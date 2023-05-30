@@ -40,7 +40,8 @@ has 5 columns: `Commit`, `Status`, `Time(seconds)`, `Notes`, `Command`.
     Hence, it is obsolete.
 
 4. `Notes`: Any notes about the commit. It takes the following values. Usually,
-    it has links to the hosted diffs.
+    it has links to the hosted diffs. However, if they are absent, please refer
+    to the links in the paper itself.
 
 5. `Command`: Command for reproducing it.
 
