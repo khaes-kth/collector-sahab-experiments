@@ -43,7 +43,25 @@ has 5 columns: `Commit`, `Status`, `Time(seconds)`, `Notes`, `Command`.
     it has links to the hosted diffs. However, if they are absent, please refer
     to the links in the paper itself.
 
-5. `Command`: Command for reproducing it.
+5. `Command`: Command for reproducing it. We accept only few are there, but
+    all them are reproducible. The command is of the form:
+    ```sh
+    java -jar main/target/collector-sahab-0.5.2-SNAPSHOT-jar-with-dependencies.jar \
+        -p <project_on_local> \
+        -c <relative_path_to_source_class_file> \
+        -l <left_commit> \
+        -r <right_commit> \
+        --slug <org/repository_name> \
+        -t <test_class_name>
+    ```
+
+    You can get the argument for `-t` like so:
+
+    1. Go to the hosted diff.
+    2. You will see the name of the differentiating tests.
+    3. Get the corresponding *fully qualified name* of the test class or method.
+    4. Pass it to the `-t` argument.
+        > If you leave it blank, all tests that surefire can discover will be run.
 
 The results shown in Table 3 of the paper are generated using a
 [python notebook](/rq2.ipynb). It also includes the link to the
