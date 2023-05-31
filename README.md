@@ -80,4 +80,4 @@ to the command in the `rq2_commits.csv` file.
 
 ## RQ4: User Study
 
-Just trust us on this please :smile: .
+The list of scores given by participants is presented [here](https://docs.google.com/spreadsheets/d/1Ofk3rb6JP39IkM23AfWqO3VK_2l13Y4uzfmP80agYFU/edit?usp=sharing).
