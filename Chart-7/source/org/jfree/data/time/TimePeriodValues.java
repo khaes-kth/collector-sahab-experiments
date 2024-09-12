@@ -549,7 +549,7 @@ public class TimePeriodValues extends Series implements Serializable {
      * @return The index.
      */
     public int getMaxMiddleIndex() {
-        return this.maxMiddleIndex;
+        return org.jfree.data.time.TimePeriodValues.this.maxStartIndex;
     }
 
     /**
