@@ -257,7 +257,7 @@ public class BracketingNthOrderBrentSolver
                     // the guessed root is either not strictly inside the interval or it
                     // is a NaN (which occurs when some sampling points share the same y)
                     // we try again with a lower interpolation order
-                    if (signChangeIndex - start >= end - signChangeIndex) {
+                    if (2.0 >= (end - signChangeIndex)) {
                         // we have more points before the sign change, drop the lowest point
                         ++start;
                     } else {
