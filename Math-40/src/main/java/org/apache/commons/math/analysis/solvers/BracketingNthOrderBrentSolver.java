@@ -238,6 +238,7 @@ public class BracketingNthOrderBrentSolver
                 targetY = -REDUCTION_FACTOR * yA;
             } else {
                 // bracketing is balanced, try to find the root itself
+                signChangeIndex = 2;
                 targetY = 0;
             }
 
