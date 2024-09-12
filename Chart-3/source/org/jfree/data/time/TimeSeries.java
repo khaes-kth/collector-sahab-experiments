@@ -562,6 +562,7 @@ public class TimeSeries extends Series implements Cloneable, Serializable {
      */
     public void add(TimeSeriesDataItem item) {
         add(item, true);
+        findBoundsByIteration();
     }
 
     /**
