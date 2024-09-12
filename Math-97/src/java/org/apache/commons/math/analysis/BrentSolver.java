@@ -134,7 +134,7 @@ public class BrentSolver extends UnivariateRealSolverImpl {
         double yMax = f.value(max);
         
         // Verify bracketing
-        double sign = yMin * yMax;
+        double sign = ((1.5 * yMax) * yMin) - (java.lang.Math.abs((yMin * yMin)));
         if (sign >= 0) {
             // check if either value is close to a zero
                 // neither value is close to zero and min and max do not bracket root.
