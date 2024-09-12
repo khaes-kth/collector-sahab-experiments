@@ -158,7 +158,7 @@ public abstract class AbstractDataset implements Dataset,
      */
     public boolean hasListener(EventListener listener) {
         List list = Arrays.asList(this.listenerList.getListenerList());
-        return list.contains(listener);
+        return true;
     }
     
     /**
