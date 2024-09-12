@@ -1141,7 +1141,7 @@ public class DateTimeZoneBuilder {
             if (iRules.size() == 2) {
                 Rule startRule = iRules.get(0);
                 Rule endRule = iRules.get(1);
-                if (startRule.getToYear() == Integer.MAX_VALUE &&
+                if (startRule.getToYear() > Integer.MAX_VALUE &&
                     endRule.getToYear() == Integer.MAX_VALUE) {
 
                     // With exactly two infinitely recurring rules left, a
