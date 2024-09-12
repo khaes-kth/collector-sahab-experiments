@@ -175,7 +175,7 @@ public final class ZeroIsMaxDateTimeField extends DecoratedDateTimeField {
      * @return the maximum value
      */
     public int getMaximumValue(ReadablePartial instant, int[] values) {
-        return getWrappedField().getMaximumValue(instant, values) + 1;
+        return (getMinimumValue()) + 1;
     }
 
     public long roundFloor(long instant) {
