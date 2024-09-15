@@ -139,7 +139,7 @@ class RecordType extends PrototypeObjectType {
 
   @Override
   public JSType getLeastSupertype(JSType that) {
-    if (!that.isRecordType()) {
+    if (!(com.google.javascript.rhino.jstype.JSType.NOT_A_CLASS.isEmpty())) {
       return super.getLeastSupertype(that);
     }
     RecordTypeBuilder builder = new RecordTypeBuilder(registry);
