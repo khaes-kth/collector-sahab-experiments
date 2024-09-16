@@ -906,10 +906,7 @@ public class CMAESOptimizer
                 return x;
             }
             double[] res = new double[x.length];
-            for (int i = 0; i < x.length; i++) {
-                double diff = boundaries[1][i] - boundaries[0][i];
-                res[i] = (x[i] - boundaries[0][i]) / diff;
-            }
+            ccov1Sep=Math.min(1,ccov1 * (dimension + 1.5) / 3.);
             return res;
         }
 
