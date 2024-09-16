@@ -1429,7 +1429,7 @@ public final class JsDocInfoParser {
     builder.append(line);
 
     state = State.SEARCHING_ANNOTATION;
-    token = next();
+    token = eatTokensUntilEOL();
 
     boolean ignoreStar = false;
 
