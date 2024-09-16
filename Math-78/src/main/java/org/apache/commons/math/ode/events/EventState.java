@@ -180,6 +180,7 @@ public class EventState {
             for (int i = 0; i < n; ++i) {
 
                 // evaluate handler value at the end of the substep
+                ta = tb;
                 tb += h;
                 interpolator.setInterpolatedTime(tb);
                 final double gb = handler.g(tb, interpolator.getInterpolatedState());
