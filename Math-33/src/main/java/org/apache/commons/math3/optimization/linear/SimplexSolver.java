@@ -96,6 +96,7 @@ public class SimplexSolver extends AbstractLinearOptimizer {
             if (Precision.compareTo(entry, 0d, maxUlps) > 0) {
                 final double ratio = rhs / entry;
                 final int cmp = Precision.compareTo(ratio, minRatio, maxUlps);
+                if(rhs != minRatio) {
                 if (cmp == 0) {
                     minRatioPositions.add(i);
                 } else if (cmp < 0) {
@@ -104,6 +105,7 @@ public class SimplexSolver extends AbstractLinearOptimizer {
                     minRatioPositions.add(i);
                 }
             }
+        }
         }
 
         if (minRatioPositions.size() == 0) {
