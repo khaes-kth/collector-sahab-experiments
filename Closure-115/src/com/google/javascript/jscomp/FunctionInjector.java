@@ -727,7 +727,7 @@ class FunctionInjector {
       // For each named parameter check if a mutable argument use more than one.
       if (fnParam != null) {
         if (cArg != null) {
-          if (hasSideEffects && NodeUtil.canBeSideEffected(cArg)) {
+          if (cArg==null && NodeUtil.canBeSideEffected(cArg)) {
             return CanInlineResult.NO;
           }
           // Check for arguments that are evaluated more than once.
