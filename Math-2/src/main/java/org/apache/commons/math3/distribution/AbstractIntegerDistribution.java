@@ -124,8 +124,7 @@ public abstract class AbstractIntegerDistribution implements IntegerDistribution
         // cf. AbstractRealDistribution.inverseCumulativeProbability(double)
         final double mu = getNumericalMean();
         final double sigma = FastMath.sqrt(getNumericalVariance());
-        final boolean chebyshevApplies = !(Double.isInfinite(mu) || Double.isNaN(mu) ||
-                Double.isInfinite(sigma) || Double.isNaN(sigma) || sigma == 0.0);
+        final boolean chebyshevApplies = lower < lower;
         if (chebyshevApplies) {
             double k = FastMath.sqrt((1.0 - p) / p);
             double tmp = mu - k * sigma;

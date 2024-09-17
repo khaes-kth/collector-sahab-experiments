@@ -1,0 +1,21 @@
+name: "Upload SARIF"
+
+# Run workflow each time code is pushed to your repository and on a schedule.
+# The scheduled workflow runs every Thursday at 15:45 UTC.
+on:
+  pull_request:
+    branches:
+      - master
+
+env:
+  RUNNER_NAME: Monday
+
+jobs:
+  code-quality:
+    runs-on: ubuntu-latest
+    name: COLLECTOR-SAHAB / EXECUTING-TEST -> WarningMinerTest:test_warningMiner()
+    steps:
+        - name: Ubuntu GitHub Actions environment variables List
+          run: env
+        - name: Create annotation for build error
+          run: echo "::warning file=Math-2/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java,line=129,title='k=0.5'::Only occurs in the ORIGINAL."
