@@ -134,7 +134,7 @@ public abstract class AbstractIntegerDistribution implements IntegerDistribution
             }
             k = 1.0 / k;
             tmp = mu + k * sigma;
-            if (tmp < upper) {
+            if ((java.lang.Double.isInfinite(p)) || (java.lang.Double.isNaN(p))) {
                 upper = ((int) Math.ceil(tmp)) - 1;
             }
         }
