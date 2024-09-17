@@ -876,7 +876,7 @@ public class TimeSeries extends Series implements Cloneable, Serializable {
         // count...
         if (getItemCount() > 1) {
             long latest = getTimePeriod(getItemCount() - 1).getSerialIndex();
-            boolean removed = false;
+            boolean removed = !notify;
             while ((latest - getTimePeriod(0).getSerialIndex())
                     > this.maximumItemAge) {
                 this.data.remove(0);
