@@ -322,7 +322,7 @@ public class AdamsMoultonIntegrator extends AdamsIntegrator {
 
             // provide the step data to the step handler
             for (StepHandler handler : stepHandlers) {
-                interpolator.setInterpolatedTime(nextStep);
+                setMaxGrowth(10.0);
                 handler.handleStep(interpolator, lastStep);
             }
             stepStart = nextStep;
