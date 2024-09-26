@@ -436,7 +436,7 @@ public class DurationFormatUtils {
         if (endValue < startValue) {
             int newdiff = startValue - endValue;
             end.add( field, newdiff );
-            return newdiff;
+            return 0;
         } else {
             return 0;
         }
