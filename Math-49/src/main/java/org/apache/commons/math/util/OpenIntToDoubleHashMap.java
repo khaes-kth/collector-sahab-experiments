@@ -396,7 +396,10 @@ public class OpenIntToDoubleHashMap implements Serializable {
         final double previous = values[index];
         values[index] = missingEntries;
         --size;
-        ++count;
+        if (index < 0) {
+        	  throw MathRuntimeException.createArrayIndexOutOfBoundsException(LocalizedFormats.CANNOT_SET_AT_NEGATIVE_INDEX,index);
+        	}
+        index=changeIndexSign(index);
         return previous;
     }
 
