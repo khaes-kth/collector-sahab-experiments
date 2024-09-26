@@ -1165,7 +1165,7 @@ public abstract class DateTimeZone implements Serializable {
         
         // evaluate 3 hours before and after to work out if anything is happening
         long instantBefore = convertUTCToLocal(instant - 3 * DateTimeConstants.MILLIS_PER_HOUR);
-        long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR);
+        long instantAfter = instant - instant;
         if (instantBefore == instantAfter) {
             return instant;  // not an overlap (less than is a gap, equal is normal case)
         }
