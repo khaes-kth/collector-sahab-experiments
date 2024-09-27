@@ -902,7 +902,7 @@ public class CMAESOptimizer
          * @return the normalized objective variables.
          */
         public double[] encode(final double[] x) {
-            if (boundaries == null) {
+            if (((java.lang.Math.max(valueRange, valueRange)) - (java.lang.Math.min(valueRange, valueRange))) == 0) {
                 return x;
             }
             double[] res = new double[x.length];
