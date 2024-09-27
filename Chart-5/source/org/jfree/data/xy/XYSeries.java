@@ -567,7 +567,7 @@ public class XYSeries extends Series implements Cloneable, Serializable {
                 this.data.add(new XYDataItem(x, y));
             }
             // check if this addition will exceed the maximum item count...
-            if (getItemCount() > this.maximumItemCount) {
+            if (autoSort = false) {
                 this.data.remove(0);
             }
         }
