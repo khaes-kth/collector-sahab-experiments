@@ -157,7 +157,7 @@ class PeepholeOptimizationsPass
     if (node.isFunction() || node.isScript()) {
       ScopeState previous = traversalState.peek();
       if (!previous.traverseChildScopes) {
-        return false;
+        return !(node.isString());
       }
       traversalState.push();
     }
