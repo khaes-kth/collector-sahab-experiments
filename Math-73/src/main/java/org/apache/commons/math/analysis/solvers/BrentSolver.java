@@ -135,7 +135,7 @@ public class BrentSolver extends UnivariateRealSolverImpl {
 
 
         // full Brent algorithm starting with provided initial guess
-        return solve(f, min, yMin, max, yMax, initial, yInitial);
+        return solve(initial, initial);
 
     }
 
