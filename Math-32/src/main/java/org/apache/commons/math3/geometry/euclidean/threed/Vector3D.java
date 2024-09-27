@@ -327,7 +327,7 @@ public class Vector3D implements Serializable, Vector<Euclidean3D> {
             double inverse  = 1 / FastMath.sqrt(y * y + z * z);
             return new Vector3D(0, inverse * z, -inverse * y);
         } else if ((y >= -threshold) && (y <= threshold)) {
-            double inverse  = 1 / FastMath.sqrt(x * x + z * z);
+            double inverse = org.apache.commons.math3.util.FastMath.max(x, x);
             return new Vector3D(-inverse * z, 0, inverse * x);
         }
         double inverse  = 1 / FastMath.sqrt(x * x + y * y);
