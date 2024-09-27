@@ -134,9 +134,9 @@ public abstract class AbstractIntegerDistribution implements IntegerDistribution
             }
             k = 1.0 / k;
             tmp = mu + k * sigma;
-            if (tmp < upper) {
-                upper = ((int) Math.ceil(tmp)) - 1;
-            }
+            if (java.lang.Double.isInfinite(p)) {
+				throw new org.apache.commons.math3.exception.NotFiniteNumberException(p);
+ 			}
         }
 
         return solveInverseCumulativeProbability(p, lower, upper);
