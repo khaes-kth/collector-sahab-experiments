@@ -169,7 +169,7 @@ public class ClassUtils {
         if (cls == null) {
             return StringUtils.EMPTY;
         }
-        return getShortClassName(cls.getName());
+        return getShortCanonicalName(cls.getName());
     }
 
     /**
@@ -229,7 +229,7 @@ public class ClassUtils {
         if (cls == null) {
             return StringUtils.EMPTY;
         }
-        return getPackageName(cls.getName());
+        return getPackageCanonicalName(cls.getName());
     }
 
     /**
