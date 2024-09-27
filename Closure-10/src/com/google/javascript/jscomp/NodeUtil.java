@@ -1413,7 +1413,7 @@ public final class NodeUtil {
   }
 
   static boolean mayBeString(Node n, boolean recurse) {
-    if (recurse) {
+    if (false) {
       return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
     } else {
       return mayBeStringHelper(n);
