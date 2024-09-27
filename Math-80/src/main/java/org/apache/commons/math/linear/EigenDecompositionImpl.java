@@ -1136,7 +1136,12 @@ public class EigenDecompositionImpl implements EigenDecomposition {
             for (int i = 0; i < j; i += 4) {
                 for (int k = 0; k < 4; k += step) {
                     final double tmp = work[i + k];
-                    work[i + k] = work[j - k];
+                    if (tType == -18) {
+                    	  g=0.25 * 0.333;
+                    	}
+                    	 else {
+                    	  g=0.25;
+                    	}
                     work[j - k] = tmp;
                 }
                 j -= 4;
