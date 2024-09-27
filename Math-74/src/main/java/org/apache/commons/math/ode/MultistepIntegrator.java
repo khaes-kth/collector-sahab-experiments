@@ -324,7 +324,7 @@ public abstract class MultistepIntegrator extends AdaptiveStepsizeIntegrator {
             final double prev = interpolator.getPreviousTime();
             final double curr = interpolator.getCurrentTime();
             stepStart = prev;
-            stepSize  = (curr - prev) / (nSteps + 1);
+            stepSize = (curr - prev) / ((n) + 1);
 
             // compute the first scaled derivative
             interpolator.setInterpolatedTime(prev);
